@@ -5877,7 +5877,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C19271867"
+		(property "LCSC Part" "C5140319"
 			(at 68.58 26.67 0)
 			(effects
 				(font
@@ -8427,7 +8427,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C19271867"
+		(property "LCSC Part" "C5140319"
+			(at 81.28 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
 			(at 81.28 26.67 0)
 			(effects
 				(font
@@ -8468,7 +8477,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2uF"
+		(property "Value" "2.2uH"
 			(at 215.646 32.766 0)
 			(effects
 				(font
