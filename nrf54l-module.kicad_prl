@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 7,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -48,7 +48,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_fffffff7_fffdffff",
+    "visible_layers": "ffffffff_ffffffff_fffffff7_fffdff7f",
     "zone_display_mode": 0
   },
   "git": {
@@ -117,7 +117,20 @@
   },
   "open_jobsets": [],
   "project": {
-    "files": []
+    "files": [
+      {
+        "name": "nrf54l-module.kicad_sch",
+        "open": false,
+        "window": {
+          "display": 1,
+          "maximized": true,
+          "pos_x": 35,
+          "pos_y": 32,
+          "size_x": 2046,
+          "size_y": 1601
+        }
+      }
+    ]
   },
   "schematic": {
     "selection_filter": {
