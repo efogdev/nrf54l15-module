@@ -14854,7 +14854,7 @@
 	(footprint "kibuzzard-6844ABB6"
 		(layer "B.Cu")
 		(uuid "0bfe1cc6-5df2-4159-8d6c-42a642acfece")
-		(at 50.8381 41.5925 -90)
+		(at 50.8381 41.4528 -90)
 		(descr "Generated with KiBuzzard")
 		(tags "kb_params=eyJBbGlnbm1lbnRDaG9pY2UiOiAiQ2VudGVyIiwgIkNhcExlZnRDaG9pY2UiOiAiKCIsICJDYXBSaWdodENob2ljZSI6ICJdIiwgIkZvbnRDb21ib0JveCI6ICJTYXVjZUNvZGVQcm9OZXJkRm9udE1vbm8tTWVkaXVtIiwgIkhlaWdodEN0cmwiOiAwLjYsICJMYXllckNvbWJvQm94IjogIkYuU2lsa1MiLCAiTGluZVNwYWNpbmdDdHJsIjogMC4xLCAiTXVsdGlMaW5lVGV4dCI6ICJDTEsiLCAiUGFkZGluZ0JvdHRvbUN0cmwiOiAxLjIsICJQYWRkaW5nTGVmdEN0cmwiOiAwLjAsICJQYWRkaW5nUmlnaHRDdHJsIjogMTcuNSwgIlBhZGRpbmdUb3BDdHJsIjogMS4yLCAiV2lkdGhDdHJsIjogMC4wLCAiYWR2YW5jZWRDaGVja2JveCI6IHRydWUsICJpbmxpbmVGb3JtYXRUZXh0Ym94IjogZmFsc2UsICJsaW5lb3ZlclN0eWxlQ2hvaWNlIjogIlNxdWFyZSIsICJsaW5lb3ZlclRoaWNrbmVzc0N0cmwiOiAwLCAicm90YXRlVGV4dENoZWNrYm94IjogdHJ1ZX0=")
 		(property "Reference" "kibuzzard-6844ABB6"
@@ -15112,7 +15112,7 @@
 	(footprint "kibuzzard-68449057"
 		(layer "B.Cu")
 		(uuid "134bd6fb-48ab-4abe-bdfb-83a81578ef3f")
-		(at 53.8353 41.6052 -90)
+		(at 53.8353 41.4655 -90)
 		(descr "Generated with KiBuzzard")
 		(tags "kb_params=eyJBbGlnbm1lbnRDaG9pY2UiOiAiQ2VudGVyIiwgIkNhcExlZnRDaG9pY2UiOiAiKCIsICJDYXBSaWdodENob2ljZSI6ICJdIiwgIkZvbnRDb21ib0JveCI6ICJTYXVjZUNvZGVQcm9OZXJkRm9udE1vbm8tTWVkaXVtIiwgIkhlaWdodEN0cmwiOiAwLjYsICJMYXllckNvbWJvQm94IjogIkYuU2lsa1MiLCAiTGluZVNwYWNpbmdDdHJsIjogMC4xLCAiTXVsdGlMaW5lVGV4dCI6ICJWSU4iLCAiUGFkZGluZ0JvdHRvbUN0cmwiOiAxLjIsICJQYWRkaW5nTGVmdEN0cmwiOiAwLjAsICJQYWRkaW5nUmlnaHRDdHJsIjogMTcuNSwgIlBhZGRpbmdUb3BDdHJsIjogMS4yLCAiV2lkdGhDdHJsIjogMC4wLCAiYWR2YW5jZWRDaGVja2JveCI6IHRydWUsICJpbmxpbmVGb3JtYXRUZXh0Ym94IjogZmFsc2UsICJsaW5lb3ZlclN0eWxlQ2hvaWNlIjogIlNxdWFyZSIsICJsaW5lb3ZlclRoaWNrbmVzc0N0cmwiOiAwLCAicm90YXRlVGV4dENoZWNrYm94IjogdHJ1ZX0=")
 		(property "Reference" "kibuzzard-68449057"
@@ -19155,7 +19155,7 @@
 	(footprint "kibuzzard-68448FBA"
 		(layer "B.Cu")
 		(uuid "c2134d7c-f81a-4108-bb48-2da4214b85c5")
-		(at 51.8287 41.5925 -90)
+		(at 51.8287 41.4528 -90)
 		(descr "Generated with KiBuzzard")
 		(tags "kb_params=eyJBbGlnbm1lbnRDaG9pY2UiOiAiQ2VudGVyIiwgIkNhcExlZnRDaG9pY2UiOiAiKCIsICJDYXBSaWdodENob2ljZSI6ICJdIiwgIkZvbnRDb21ib0JveCI6ICJTYXVjZUNvZGVQcm9OZXJkRm9udE1vbm8tTWVkaXVtIiwgIkhlaWdodEN0cmwiOiAwLjYsICJMYXllckNvbWJvQm94IjogIkYuU2lsa1MiLCAiTGluZVNwYWNpbmdDdHJsIjogMC4xLCAiTXVsdGlMaW5lVGV4dCI6ICJHTkQiLCAiUGFkZGluZ0JvdHRvbUN0cmwiOiAxLjIsICJQYWRkaW5nTGVmdEN0cmwiOiAwLjAsICJQYWRkaW5nUmlnaHRDdHJsIjogMTcuNSwgIlBhZGRpbmdUb3BDdHJsIjogMS4yLCAiV2lkdGhDdHJsIjogMC4wLCAiYWR2YW5jZWRDaGVja2JveCI6IHRydWUsICJpbmxpbmVGb3JtYXRUZXh0Ym94IjogZmFsc2UsICJsaW5lb3ZlclN0eWxlQ2hvaWNlIjogIlNxdWFyZSIsICJsaW5lb3ZlclRoaWNrbmVzc0N0cmwiOiAwLCAicm90YXRlVGV4dENoZWNrYm94IjogdHJ1ZX0=")
 		(property "Reference" "kibuzzard-68448FBA"
@@ -19272,7 +19272,7 @@
 	(footprint "kibuzzard-68448FBA"
 		(layer "B.Cu")
 		(uuid "c4bcb519-33eb-4b9d-8609-504cbdd7a4e0")
-		(at 49.8348 41.6052 -90)
+		(at 49.8348 41.4655 -90)
 		(descr "Generated with KiBuzzard")
 		(tags "kb_params=eyJBbGlnbm1lbnRDaG9pY2UiOiAiQ2VudGVyIiwgIkNhcExlZnRDaG9pY2UiOiAiKCIsICJDYXBSaWdodENob2ljZSI6ICJdIiwgIkZvbnRDb21ib0JveCI6ICJTYXVjZUNvZGVQcm9OZXJkRm9udE1vbm8tTWVkaXVtIiwgIkhlaWdodEN0cmwiOiAwLjYsICJMYXllckNvbWJvQm94IjogIkYuU2lsa1MiLCAiTGluZVNwYWNpbmdDdHJsIjogMC4xLCAiTXVsdGlMaW5lVGV4dCI6ICJHTkQiLCAiUGFkZGluZ0JvdHRvbUN0cmwiOiAxLjIsICJQYWRkaW5nTGVmdEN0cmwiOiAwLjAsICJQYWRkaW5nUmlnaHRDdHJsIjogMTcuNSwgIlBhZGRpbmdUb3BDdHJsIjogMS4yLCAiV2lkdGhDdHJsIjogMC4wLCAiYWR2YW5jZWRDaGVja2JveCI6IHRydWUsICJpbmxpbmVGb3JtYXRUZXh0Ym94IjogZmFsc2UsICJsaW5lb3ZlclN0eWxlQ2hvaWNlIjogIlNxdWFyZSIsICJsaW5lb3ZlclRoaWNrbmVzc0N0cmwiOiAwLCAicm90YXRlVGV4dENoZWNrYm94IjogdHJ1ZX0=")
 		(property "Reference" "kibuzzard-68448FBA"
@@ -20477,7 +20477,7 @@
 	(footprint "kibuzzard-6844ABB3"
 		(layer "B.Cu")
 		(uuid "f4b5d931-7ec1-486b-934f-54fe2cd36846")
-		(at 52.832 41.6052 -90)
+		(at 52.832 41.4655 -90)
 		(descr "Generated with KiBuzzard")
 		(tags "kb_params=eyJBbGlnbm1lbnRDaG9pY2UiOiAiQ2VudGVyIiwgIkNhcExlZnRDaG9pY2UiOiAiKCIsICJDYXBSaWdodENob2ljZSI6ICJdIiwgIkZvbnRDb21ib0JveCI6ICJTYXVjZUNvZGVQcm9OZXJkRm9udE1vbm8tTWVkaXVtIiwgIkhlaWdodEN0cmwiOiAwLjYsICJMYXllckNvbWJvQm94IjogIkYuU2lsa1MiLCAiTGluZVNwYWNpbmdDdHJsIjogMC4xLCAiTXVsdGlMaW5lVGV4dCI6ICJESU8iLCAiUGFkZGluZ0JvdHRvbUN0cmwiOiAxLjIsICJQYWRkaW5nTGVmdEN0cmwiOiAwLjAsICJQYWRkaW5nUmlnaHRDdHJsIjogMTcuNSwgIlBhZGRpbmdUb3BDdHJsIjogMS4yLCAiV2lkdGhDdHJsIjogMC4wLCAiYWR2YW5jZWRDaGVja2JveCI6IHRydWUsICJpbmxpbmVGb3JtYXRUZXh0Ym94IjogZmFsc2UsICJsaW5lb3ZlclN0eWxlQ2hvaWNlIjogIlNxdWFyZSIsICJsaW5lb3ZlclRoaWNrbmVzc0N0cmwiOiAwLCAicm90YXRlVGV4dENoZWNrYm94IjogdHJ1ZX0=")
 		(property "Reference" "kibuzzard-6844ABB3"
