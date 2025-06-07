@@ -116,7 +116,20 @@
   },
   "open_jobsets": [],
   "project": {
-    "files": []
+    "files": [
+      {
+        "name": "nrf54l-module.kicad_pcb",
+        "open": false,
+        "window": {
+          "display": 1,
+          "maximized": true,
+          "pos_x": 35,
+          "pos_y": 32,
+          "size_x": 1230,
+          "size_y": 574
+        }
+      }
+    ]
   },
   "schematic": {
     "selection_filter": {
