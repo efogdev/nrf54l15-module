@@ -1,0 +1,10 @@
+*.log
+\#auto*
+*.lck
+*-backups
+production/
+_autosave*
+*autosave*
+*.svg
+*.pdf
+
