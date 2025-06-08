@@ -1,4 +1,5 @@
 (fp_lib_table
   (version 7)
-  (lib (name "castellanus")(type "KiCad")(uri "${KIPRJMOD}/castellanus.pretty")(options "")(descr ""))
+  (lib (name "castellanus")(type "KiCad")(uri "${KIPRJMOD}/castellanus.pretty")(options "${KIPRJMOD}/castellanus.pretty")(descr ""))
+  (lib (name "chinchilla")(type "KiCad")(uri "${KIPRJMOD}/chinchilla.pretty")(options "")(descr "KiCad"))
 )
