@@ -5,7 +5,7 @@
 ## Features
 
 1. Full IO set: all the pins (except power and antenna) are present
-2. Compact design: the board is 16x25 mm
+2. Compact design: the board is 16x25 mm with 1.2 mm height
 3. Ultra efficient: featuring TLV62569 with ≥94% efficiency at (almost) any load
 4. 1V8 pin can be used as both input (if VIN not connected) and output (up to 1.5A)
 5. Power LED and 2 programmable LEDs that can be isolated to free the pins
