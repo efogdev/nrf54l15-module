@@ -11,7 +11,7 @@
 5. Power LED and 2 programmable LEDs that can be isolated to free the pins
 6. On-board "reset" button
 7. A 1mm pitch header footprint with programming pins
-8. Impedance of all traces is close to 50Ω
+8. Impedance of (almost) all traces is close to 50Ω
 9. Ready to use KiCAD symbol and footprint
 
 ## Dimensions
