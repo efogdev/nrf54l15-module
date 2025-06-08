@@ -1,4 +1,4 @@
-25725735354791364
+25732733206870433
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -102675,6 +102675,13 @@ chinchilla
 0
 0
 0
+chinchilla
+qr
+
+
+0
+0
+0
 easyeda2kicad
 ANT-SMD_L3.2-W1.6
 
@@ -102781,6 +102788,13 @@ IND-SMD_L3.2-W2.5-LQH32CN1R0M53L
 2
 2
 easyeda2kicad
+IND-SMD_L3.2-W2.5_NLCV32T
+
+
+0
+2
+2
+easyeda2kicad
 IND-SMD_L4.5-W4.1_GSSM0420
 
 
@@ -102824,6 +102838,20 @@ L0402-R-RD
 2
 easyeda2kicad
 L0806
+
+
+0
+2
+2
+easyeda2kicad
+L1206
+
+
+0
+2
+2
+easyeda2kicad
+L1210
 
 
 0
