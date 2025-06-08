@@ -2,6 +2,18 @@
 
 ![3D view](./images/3d.png)
 
+## Features
+
+1. Full IO set: all the pins (except power and antenna) are present
+2. Compact design: the board is 16x25 mm
+3. Ultra efficient: featuring TLV62569 with ≥94% efficiency at any load
+4. 1V8 pin can be used as both input (if VIN not connected) and output (up to 1.5A)
+5. Power LED and 2 programmable LEDs that can be isolated to free the pins
+6. On-board "reset" button
+7. A 1mm pitch header footprint with programming pins
+8. Impedance of all traces is close to 50Ω
+9. Ready to use KiCAD symbol and footprint
+
 ## Dimensions
 
 ![Dimensions](./images/dimensions.png)
