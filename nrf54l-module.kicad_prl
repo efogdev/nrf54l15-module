@@ -32,6 +32,7 @@
       "vias",
       "footprint_text",
       "ratsnest",
+      "grid",
       "footprints_front",
       "footprints_back",
       "footprint_values",
@@ -118,26 +119,14 @@
     "files": [
       {
         "name": "nrf54l-module.kicad_pcb",
-        "open": false,
+        "open": true,
         "window": {
           "display": 1,
           "maximized": true,
           "pos_x": 35,
           "pos_y": 32,
           "size_x": 1230,
-          "size_y": 452
-        }
-      },
-      {
-        "name": "nrf54l-module.kicad_sch",
-        "open": false,
-        "window": {
-          "display": 1,
-          "maximized": true,
-          "pos_x": 35,
-          "pos_y": 32,
-          "size_x": 2046,
-          "size_y": 1601
+          "size_y": 391
         }
       }
     ]
