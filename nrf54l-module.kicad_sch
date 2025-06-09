@@ -2178,6 +2178,160 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "easyeda2kicad:TD-1183SN-1.7H-250"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TD-1183SN-1.7H-250"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:KEY-SMD_L3.0-W2.5-LS4.0"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C2905195"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TD-1183SN-1.7H-250_0_1"
+				(polyline
+					(pts
+						(xy -2.03 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.52 0.51) (xy 1.52 1.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.52 0)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.52 0)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.03 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "easyeda2kicad:TLV62569DRLR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4858,6 +5012,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.528 181.61) (xy 33.528 186.182)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2d5622d-eb69-4c72-a8c9-9c86feb36bb2")
+	)
+	(wire
+		(pts
 			(xy 97.282 155.702) (xy 97.282 163.322)
 		)
 		(stroke
@@ -4875,6 +5039,16 @@
 			(type default)
 		)
 		(uuid "d4feb36d-5fb7-47f6-a703-fe3c036a9c9c")
+	)
+	(wire
+		(pts
+			(xy 33.528 186.182) (xy 40.64 186.182)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d53c9b07-00e4-4fdc-993b-fc96ad7a704d")
 	)
 	(wire
 		(pts
@@ -5105,6 +5279,16 @@
 			(type default)
 		)
 		(uuid "f71b8b7f-8bf8-47d7-8b87-79a2ccba2956")
+	)
+	(wire
+		(pts
+			(xy 50.8 186.182) (xy 60.198 186.182)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f758e6dc-7821-4d75-9bbb-a876d04579d9")
 	)
 	(wire
 		(pts
@@ -5884,6 +6068,28 @@
 			)
 		)
 	)
+	(global_label "P1.12"
+		(shape bidirectional)
+		(at 60.198 186.182 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c1ac79b3-b481-4523-a44d-964dbba4fe29")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 69.4011 186.182 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "P1.05"
 		(shape bidirectional)
 		(at 35.052 101.092 180)
@@ -6130,6 +6336,83 @@
 			(project ""
 				(path "/0864898c-5307-44d7-ba2c-a6227ddaacc4"
 					(reference "L4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:TD-1183SN-1.7H-250")
+		(at 45.72 186.182 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0feaf583-41af-4ec6-901e-2d38f61d72ac")
+		(property "Reference" "SW2"
+			(at 45.72 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TD-1183SN-1.7H-250"
+			(at 45.72 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:KEY-SMD_L3.0-W2.5-LS4.0"
+			(at 45.72 193.802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 186.182 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 45.72 186.182 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2905195"
+			(at 45.72 196.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3de5153e-c479-4986-92f3-9d5c79588f79")
+		)
+		(pin "1"
+			(uuid "2fc87956-4894-42e1-acf1-fd50388410bb")
+		)
+		(instances
+			(project ""
+				(path "/0864898c-5307-44d7-ba2c-a6227ddaacc4"
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -9076,6 +9359,72 @@
 			(project "nrf54l-module"
 				(path "/0864898c-5307-44d7-ba2c-a6227ddaacc4"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V8")
+		(at 33.528 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "900e572c-19b8-440b-ab43-18ef2c72afdb")
+		(property "Reference" "#PWR019"
+			(at 33.528 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1V8"
+			(at 33.528 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.528 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.528 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V8\""
+			(at 33.528 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a84d6a23-1741-43f3-946d-879a78270ef8")
+		)
+		(instances
+			(project "nrf54l-module"
+				(path "/0864898c-5307-44d7-ba2c-a6227ddaacc4"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
