@@ -6349,22 +6349,22 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0feaf583-41af-4ec6-901e-2d38f61d72ac")
 		(property "Reference" "SW2"
-			(at 45.72 179.07 0)
+			(at 45.72 182.372 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "TD-1183SN-1.7H-250"
+		(property "Value" ""
 			(at 45.72 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "easyeda2kicad:KEY-SMD_L3.0-W2.5-LS4.0"
@@ -6394,7 +6394,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C2905195"
+		(property "LCSC Part" "C231329"
 			(at 45.72 196.342 0)
 			(effects
 				(font
