@@ -14,6 +14,14 @@
 8. Impedance of (almost) all traces is close to 50Ω
 9. Ready to use KiCAD symbol and footprint
 
+## Stackup
+
+1. Default: JLC04121H-3313
+2. 6 layer option: JLC06121H-3313
+
+> The one I'm selling has 6 layers. It offers 2u" ENIG, superior EMI performance, \
+> better thermal and electric characteristics, and less degradation with age.
+
 ## Dimensions
 
 ![Dimensions](./images/dimensions.png)
