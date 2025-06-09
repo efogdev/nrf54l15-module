@@ -47,7 +47,7 @@
       "shapes"
     ],
     "visible_layers": "ffffffff_ffffffff_fffffff7_7ffdffff",
-    "zone_display_mode": 1
+    "zone_display_mode": 0
   },
   "git": {
     "repo_type": "",
@@ -122,15 +122,15 @@
         "window": {
           "display": 1,
           "maximized": true,
-          "pos_x": 3200,
-          "pos_y": 421,
+          "pos_x": 0,
+          "pos_y": 0,
           "size_x": 1280,
-          "size_y": 598
+          "size_y": 537
         }
       },
       {
         "name": "nrf54l-module.kicad_sch",
-        "open": false,
+        "open": true,
         "window": {
           "display": 1,
           "maximized": true,
