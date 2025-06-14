@@ -1,4 +1,4 @@
-25764239931036698
+25748493587497485
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -102668,27 +102668,6 @@ Castellanus
 0
 1
 1
-chinchilla
-chinchilla
-
-
-0
-0
-0
-chinchilla
-qr
-
-
-0
-0
-0
-chinchilla-01
-nRF54L15_module
-
-
-0
-43
-43
 easyeda2kicad
 ANT-SMD_L3.2-W1.6
 
@@ -102739,40 +102718,12 @@ CASE-A_3216
 2
 2
 easyeda2kicad
-CONN-SMD_3P-P1.0-HC-1.0-3PWT
-
-
-0
-5
-5
-easyeda2kicad
 CONN-SMD_3P-P1.00_HDGC_HDGC1002WV-S-3P
 
 
 0
 5
 5
-easyeda2kicad
-CONN-SMD_BM28B0.6-6DS-2-0.35V-51-1
-
-
-0
-10
-10
-easyeda2kicad
-CONN-SMD_BM28B0.6-10DP-2-0.35V-51
-
-
-0
-14
-14
-easyeda2kicad
-CONN-SMD_BM28B0.6-10DS-2-0.35V-51
-
-
-0
-14
-14
 easyeda2kicad
 CRYSTAL-SMD_4P-L2.0-W1.6-BL
 
@@ -102794,13 +102745,6 @@ DFN1006B-3_L1.0-W0.6-P0.35-BR
 0
 3
 3
-easyeda2kicad
-DSBGA-6_L1.5-W1.5-P0.50-BL
-
-
-0
-6
-6
 easyeda2kicad
 ESSOP-10_L4.9-W3.9-P1.0-LS6.0-TL-EP
 
@@ -103193,13 +103137,6 @@ USB-TYPE-C-SMD_C9900008089
 0
 18
 16
-easyeda2kicad
-USB-TYPE-C-SMD_TYPE-C-16P-QTWT
-
-
-0
-18
-13
 easyeda2kicad
 VQFN-16_L3.0-W3.0-P0.50-TL-EP1.7
 

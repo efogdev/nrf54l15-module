@@ -5,11 +5,11 @@
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
-    "high_contrast_mode": 1,
-    "net_color_mode": 2,
+    "high_contrast_mode": 0,
+    "net_color_mode": 1,
     "opacity": {
       "images": 0.6,
-      "pads": 0.6700000166893005,
+      "pads": 1.0,
       "shapes": 1.0,
       "tracks": 1.0,
       "vias": 1.0,
@@ -20,7 +20,7 @@
       "footprints": true,
       "graphics": true,
       "keepouts": true,
-      "lockedItems": true,
+      "lockedItems": false,
       "otherItems": true,
       "pads": true,
       "text": true,
@@ -31,7 +31,9 @@
     "visible_items": [
       "vias",
       "footprint_text",
+      "footprint_anchors",
       "ratsnest",
+      "grid",
       "footprints_front",
       "footprints_back",
       "footprint_values",
@@ -43,11 +45,12 @@
       "pads",
       "zones",
       "drc_warnings",
+      "locked_item_shadows",
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_fffff7f7_7ffdffff",
-    "zone_display_mode": 1
+    "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffff",
+    "zone_display_mode": 0
   },
   "git": {
     "repo_type": "",
@@ -55,58 +58,13 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "nrf54l-module.kicad_prl",
+    "filename": "usb-and-battery-companion.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
-    "col_hidden": [
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false
-    ],
-    "col_order": [
-      0,
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      11,
-      12,
-      13
-    ],
-    "col_widths": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
-    ],
+    "col_hidden": [],
+    "col_order": [],
+    "col_widths": [],
     "custom_group_rules": [],
     "expanded_rows": [],
     "filter_by_net_name": true,
@@ -117,21 +75,21 @@
     "show_unconnected_nets": false,
     "show_zero_pad_nets": false,
     "sort_ascending": true,
-    "sorting_column": 0
+    "sorting_column": -1
   },
   "open_jobsets": [],
   "project": {
     "files": [
       {
-        "name": "nrf54l-module.kicad_pcb",
-        "open": true,
+        "name": "usb-and-battery-companion.kicad_sch",
+        "open": false,
         "window": {
           "display": 1,
           "maximized": true,
-          "pos_x": 0,
-          "pos_y": 0,
-          "size_x": 1560,
-          "size_y": 999
+          "pos_x": 2817,
+          "pos_y": -161,
+          "size_x": 2046,
+          "size_y": 1601
         }
       }
     ]
