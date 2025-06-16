@@ -381,150 +381,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "easyeda2kicad:BLM03PX121SN1D"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "BLM03PX121SN1D"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:L0201"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C525479"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "BLM03PX121SN1D_0_1"
-				(arc
-					(start -2.27 -0.02)
-					(mid -3.28 -0.9427)
-					(end -4.29 -0.02)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.11 -0.02)
-					(mid -1.12 -0.9471)
-					(end -2.13 -0.02)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.04 -0.02)
-					(mid 1.03 -0.9471)
-					(end 0.02 -0.02)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 4.23 -0.02)
-					(mid 3.22 -0.9471)
-					(end 2.21 -0.02)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 0 0)
-					(length 0.762)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 0 180)
-					(length 0.762)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "easyeda2kicad:BM28B0.6-10DS_2-0.35V(51)"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2856,11 +2712,11 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "easyeda2kicad:XL-0201SURC"
+		(symbol "easyeda2kicad:TZ-P2-0402RTIA1-0.45T"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
+			(property "Reference" "LED"
 				(at 0 5.08 0)
 				(effects
 					(font
@@ -2868,7 +2724,7 @@
 					)
 				)
 			)
-			(property "Value" "XL-0201SURC"
+			(property "Value" "TZ-P2-0402RTIA1-0.45T"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -2876,7 +2732,7 @@
 					)
 				)
 			)
-			(property "Footprint" "easyeda2kicad:LED-SMD_L0.65-W0.35-P0.41_XL-0201SURC"
+			(property "Footprint" "easyeda2kicad:LED0402-RD_RED"
 				(at 0 -7.62 0)
 				(effects
 					(font
@@ -2885,8 +2741,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_TUOZHAN-TZ-P2-0402RTIA1-0-45T_C779449.html"
+				(at 0 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2903,8 +2759,8 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part" "C3646923"
-				(at 0 -10.16 0)
+			(property "LCSC Part" "C779449"
+				(at 0 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2912,7 +2768,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "XL-0201SURC_0_1"
+			(symbol "TZ-P2-0402RTIA1-0.45T_0_1"
 				(polyline
 					(pts
 						(xy -4.06 3.3) (xy -3.05 2.79) (xy -3.56 2.29) (xy -4.06 3.3)
@@ -3019,7 +2875,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3037,7 +2893,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3489,7 +3345,7 @@
 		)
 	)
 	(junction
-		(at 215.646 69.85)
+		(at 208.28 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "013fdd88-c453-41be-b1fe-2703fca4bc33")
@@ -3519,22 +3375,22 @@
 		(uuid "1235d631-5823-4a91-a344-a5710e86b5fc")
 	)
 	(junction
-		(at 234.696 69.85)
+		(at 261.62 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "174bdb0c-d9b7-41c7-8044-94bc9a5ee949")
+	)
+	(junction
+		(at 227.33 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "19cd7e89-217c-4969-8ef6-5a75ef84e914")
 	)
 	(junction
-		(at 234.696 53.594)
+		(at 227.33 53.594)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1fb1ac2c-3db5-4f63-9c07-1c845580a706")
-	)
-	(junction
-		(at 78.232 33.782)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "22ec63a2-0b0e-486a-81cc-dccabc5dff4e")
 	)
 	(junction
 		(at 207.772 102.362)
@@ -3549,7 +3405,7 @@
 		(uuid "31e814de-f45a-40c5-a3b8-61c4baddc24f")
 	)
 	(junction
-		(at 227.076 69.85)
+		(at 219.71 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "38beeefa-bc37-442e-bd84-4e978ad173c6")
@@ -3561,19 +3417,13 @@
 		(uuid "435f9587-9480-442b-ba49-ae952de6914b")
 	)
 	(junction
-		(at 88.392 33.782)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "460fa1c1-b55c-403a-96dc-1c3b475082a7")
-	)
-	(junction
 		(at 78.232 16.002)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "488be403-46d5-4236-a0fa-bc453973e4e9")
 	)
 	(junction
-		(at 185.42 28.194)
+		(at 178.054 28.194)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "566bceb2-6cb1-464f-8191-fba4ff8f693b")
@@ -3583,6 +3433,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5bdc1cdd-ed0f-4ad8-ad88-62a315dbd2af")
+	)
+	(junction
+		(at 261.62 28.194)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68bd1377-693e-4e55-b993-fced00876135")
 	)
 	(junction
 		(at 191.262 121.412)
@@ -3597,13 +3453,13 @@
 		(uuid "7608471b-9bb5-4005-8560-224cf2b902dc")
 	)
 	(junction
-		(at 227.076 28.194)
+		(at 219.71 28.194)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8b06f3b7-ae59-48bb-9835-672f30260ecb")
 	)
 	(junction
-		(at 257.556 69.85)
+		(at 250.19 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "901d873e-f6d5-4b71-bb4a-a65f31350d71")
@@ -3615,7 +3471,7 @@
 		(uuid "9959e105-2b64-44ef-ad50-507829177549")
 	)
 	(junction
-		(at 234.696 28.194)
+		(at 227.33 28.194)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a1723938-636a-4aa6-b029-08758958aaf3")
@@ -3627,25 +3483,31 @@
 		(uuid "a4df4456-c0fe-41a5-98cf-84b4c384cf5a")
 	)
 	(junction
-		(at 176.276 28.194)
+		(at 230.886 135.382)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b1db9f9f-a581-431e-b572-f0a02c62d7c9")
+	)
+	(junction
+		(at 168.91 28.194)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b351d619-af05-49be-a6f1-ac6bb30a88f1")
 	)
 	(junction
-		(at 176.276 37.338)
+		(at 168.91 37.338)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b49067dd-19f3-4944-894b-8a3c3c122eef")
 	)
 	(junction
-		(at 206.756 46.482)
+		(at 199.39 46.482)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b6195834-c4cb-4075-a08f-46e139a3a413")
 	)
 	(junction
-		(at 251.206 28.194)
+		(at 243.84 28.194)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b635aa54-9a22-40fc-ab20-1d2605c650cd")
@@ -3657,13 +3519,7 @@
 		(uuid "b8685fce-3067-48d9-807a-6c70ed8f4774")
 	)
 	(junction
-		(at 230.886 135.382)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ba38d4ed-5287-4feb-baee-cf1c6fbeea48")
-	)
-	(junction
-		(at 257.556 28.194)
+		(at 250.19 28.194)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c81aba77-af5c-4fa9-a870-6c117381b0ce")
@@ -3693,7 +3549,7 @@
 		(uuid "dea13817-e96f-4121-8742-a7d4867a7523")
 	)
 	(junction
-		(at 251.206 69.85)
+		(at 243.84 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dff37bb6-e318-4473-bcf5-4e092c0fb688")
@@ -3709,7 +3565,7 @@
 		(uuid "330ce0c8-2a8b-48f7-8478-25863c3df4c0")
 	)
 	(no_connect
-		(at 212.09 23.114)
+		(at 204.724 23.114)
 		(uuid "bbd66c9e-610a-4422-be07-61305d4b759f")
 	)
 	(wire
@@ -3734,7 +3590,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.556 69.85) (xy 268.986 69.85)
+			(xy 250.19 69.85) (xy 261.62 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3774,7 +3630,17 @@
 	)
 	(wire
 		(pts
-			(xy 251.206 28.194) (xy 257.556 28.194)
+			(xy 261.62 28.194) (xy 271.272 28.194)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0833451f-5aab-4e63-bf15-43209f13b362")
+	)
+	(wire
+		(pts
+			(xy 243.84 28.194) (xy 250.19 28.194)
 		)
 		(stroke
 			(width 0)
@@ -3791,16 +3657,6 @@
 			(type default)
 		)
 		(uuid "09d67dce-23c0-406c-a93a-a079b9c464d5")
-	)
-	(wire
-		(pts
-			(xy 149.352 181.864) (xy 151.13 181.864)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a6fb755-bd1a-4d9c-8335-cc6ea009825b")
 	)
 	(wire
 		(pts
@@ -3854,16 +3710,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.162 114.046) (xy 159.766 114.046)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12043e70-a969-4239-90d0-50d2bf71ef34")
-	)
-	(wire
-		(pts
 			(xy 141.732 94.742) (xy 156.972 94.742)
 		)
 		(stroke
@@ -3874,7 +3720,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.276 28.194) (xy 185.42 28.194)
+			(xy 168.91 28.194) (xy 178.054 28.194)
 		)
 		(stroke
 			(width 0)
@@ -3884,7 +3730,7 @@
 	)
 	(wire
 		(pts
-			(xy 225.806 28.194) (xy 227.076 28.194)
+			(xy 218.44 28.194) (xy 219.71 28.194)
 		)
 		(stroke
 			(width 0)
@@ -3934,16 +3780,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.998 181.864) (xy 112.268 181.864)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20024b2f-ba42-4519-a757-113b54e4b983")
-	)
-	(wire
-		(pts
 			(xy 65.532 24.892) (xy 65.532 29.972)
 		)
 		(stroke
@@ -3974,16 +3810,6 @@
 	)
 	(wire
 		(pts
-			(xy 257.048 135.382) (xy 262.128 135.382)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27824f7b-7080-45f7-aa73-a0f531dd170d")
-	)
-	(wire
-		(pts
 			(xy 156.972 62.992) (xy 156.972 66.802)
 		)
 		(stroke
@@ -3994,17 +3820,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 181.864) (xy 160.782 181.864)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29380f97-4638-49a8-9e01-4a90eb9f1ad1")
-	)
-	(wire
-		(pts
-			(xy 187.452 25.654) (xy 189.23 25.654)
+			(xy 180.086 25.654) (xy 181.864 25.654)
 		)
 		(stroke
 			(width 0)
@@ -4014,7 +3830,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.556 49.784) (xy 257.556 69.85)
+			(xy 250.19 49.784) (xy 250.19 69.85)
 		)
 		(stroke
 			(width 0)
@@ -4031,16 +3847,6 @@
 			(type default)
 		)
 		(uuid "2bbb8398-ebb4-4da1-80c6-c92721f487e6")
-	)
-	(wire
-		(pts
-			(xy 139.954 181.864) (xy 141.732 181.864)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e375c14-589e-404e-ae68-f12eb7b5e863")
 	)
 	(wire
 		(pts
@@ -4074,17 +3880,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.998 181.864) (xy 110.998 184.404)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a016683-2b8d-4310-b794-b3568f78f485")
-	)
-	(wire
-		(pts
-			(xy 215.646 69.85) (xy 215.646 71.12)
+			(xy 208.28 69.85) (xy 208.28 71.12)
 		)
 		(stroke
 			(width 0)
@@ -4114,7 +3910,7 @@
 	)
 	(wire
 		(pts
-			(xy 206.756 69.85) (xy 215.646 69.85)
+			(xy 199.39 69.85) (xy 208.28 69.85)
 		)
 		(stroke
 			(width 0)
@@ -4134,7 +3930,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.276 37.338) (xy 176.276 38.354)
+			(xy 168.91 37.338) (xy 168.91 38.354)
 		)
 		(stroke
 			(width 0)
@@ -4144,7 +3940,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.696 25.654) (xy 234.696 28.194)
+			(xy 227.33 25.654) (xy 227.33 28.194)
 		)
 		(stroke
 			(width 0)
@@ -4164,7 +3960,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.136 39.624) (xy 206.756 39.624)
+			(xy 191.77 39.624) (xy 199.39 39.624)
 		)
 		(stroke
 			(width 0)
@@ -4174,7 +3970,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.076 39.624) (xy 227.076 69.85)
+			(xy 219.71 39.624) (xy 219.71 69.85)
 		)
 		(stroke
 			(width 0)
@@ -4184,7 +3980,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.276 37.338) (xy 187.452 37.338)
+			(xy 168.91 37.338) (xy 180.086 37.338)
 		)
 		(stroke
 			(width 0)
@@ -4194,7 +3990,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 28.194) (xy 185.42 39.624)
+			(xy 178.054 28.194) (xy 178.054 39.624)
 		)
 		(stroke
 			(width 0)
@@ -4214,7 +4010,7 @@
 	)
 	(wire
 		(pts
-			(xy 206.756 39.624) (xy 206.756 46.482)
+			(xy 199.39 39.624) (xy 199.39 46.482)
 		)
 		(stroke
 			(width 0)
@@ -4244,7 +4040,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.614 19.05) (xy 213.614 25.654)
+			(xy 206.248 19.05) (xy 206.248 25.654)
 		)
 		(stroke
 			(width 0)
@@ -4264,43 +4060,23 @@
 	)
 	(wire
 		(pts
-			(xy 122.428 181.864) (xy 123.19 181.864)
+			(xy 230.886 150.622) (xy 235.458 150.622)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5c40e7a0-b75c-4408-a3c1-321e9b6397a2")
+		(uuid "5d027d74-fc58-4242-a6e9-fd272592c4fc")
 	)
 	(wire
 		(pts
-			(xy 159.766 114.046) (xy 159.766 119.888)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5dc989df-7f47-4313-bde6-9ce5cce0a382")
-	)
-	(wire
-		(pts
-			(xy 234.696 69.85) (xy 251.206 69.85)
+			(xy 227.33 69.85) (xy 243.84 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5dd2cbbb-31ac-4d08-b69f-066469202210")
-	)
-	(wire
-		(pts
-			(xy 243.078 150.622) (xy 246.888 150.622)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5df4724b-99ea-4dd7-b061-3948aaa314f5")
 	)
 	(wire
 		(pts
@@ -4324,7 +4100,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.076 28.194) (xy 234.696 28.194)
+			(xy 219.71 28.194) (xy 227.33 28.194)
 		)
 		(stroke
 			(width 0)
@@ -4334,7 +4110,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.556 28.194) (xy 268.986 28.194)
+			(xy 250.19 28.194) (xy 261.62 28.194)
 		)
 		(stroke
 			(width 0)
@@ -4344,17 +4120,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.402 181.864) (xy 170.18 181.864)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "631b8334-0ab5-4bb5-af35-a1a8e5c19765")
-	)
-	(wire
-		(pts
-			(xy 251.206 44.704) (xy 251.206 69.85)
+			(xy 243.84 44.704) (xy 243.84 69.85)
 		)
 		(stroke
 			(width 0)
@@ -4364,7 +4130,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 28.194) (xy 215.646 28.194)
+			(xy 204.724 28.194) (xy 208.28 28.194)
 		)
 		(stroke
 			(width 0)
@@ -4384,17 +4150,7 @@
 	)
 	(wire
 		(pts
-			(xy 230.886 135.382) (xy 230.886 150.622)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "679c4303-211f-474c-9533-81ca60ee60e5")
-	)
-	(wire
-		(pts
-			(xy 206.756 46.482) (xy 206.756 48.26)
+			(xy 199.39 46.482) (xy 199.39 48.26)
 		)
 		(stroke
 			(width 0)
@@ -4414,6 +4170,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 69.85) (xy 271.272 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b35b651-f28c-4130-a5bc-1024a5a3ebb3")
+	)
+	(wire
+		(pts
 			(xy 141.732 102.362) (xy 164.592 102.362)
 		)
 		(stroke
@@ -4424,7 +4190,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.232 29.972) (xy 78.232 33.782)
+			(xy 78.232 29.972) (xy 78.232 41.402)
 		)
 		(stroke
 			(width 0)
@@ -4474,7 +4240,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.696 51.054) (xy 234.696 53.594)
+			(xy 227.33 51.054) (xy 227.33 53.594)
 		)
 		(stroke
 			(width 0)
@@ -4501,26 +4267,6 @@
 			(type default)
 		)
 		(uuid "73a6f372-cd82-40da-b0bf-a74e8a82ee84")
-	)
-	(wire
-		(pts
-			(xy 170.18 178.308) (xy 170.18 181.864)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77e8b2be-8d01-4945-97dc-0a1b8f36e214")
-	)
-	(wire
-		(pts
-			(xy 257.048 150.622) (xy 262.128 150.622)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78ac0e04-3dd9-48db-8de8-6672a515c167")
 	)
 	(wire
 		(pts
@@ -4554,7 +4300,7 @@
 	)
 	(wire
 		(pts
-			(xy 159.766 127.508) (xy 159.766 128.778)
+			(xy 153.162 126.746) (xy 153.162 132.588)
 		)
 		(stroke
 			(width 0)
@@ -4564,7 +4310,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 25.654) (xy 213.614 25.654)
+			(xy 204.724 25.654) (xy 206.248 25.654)
 		)
 		(stroke
 			(width 0)
@@ -4584,7 +4330,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.646 69.85) (xy 227.076 69.85)
+			(xy 208.28 69.85) (xy 219.71 69.85)
 		)
 		(stroke
 			(width 0)
@@ -4594,13 +4340,23 @@
 	)
 	(wire
 		(pts
-			(xy 234.696 28.194) (xy 251.206 28.194)
+			(xy 227.33 28.194) (xy 243.84 28.194)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "81756fbe-922c-458e-b111-18e545cca5c6")
+	)
+	(wire
+		(pts
+			(xy 230.886 135.382) (xy 230.886 150.622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81d09dfb-efaf-42b1-be9e-37400367d223")
 	)
 	(wire
 		(pts
@@ -4654,7 +4410,7 @@
 	)
 	(wire
 		(pts
-			(xy 268.986 28.194) (xy 268.986 34.544)
+			(xy 261.62 28.194) (xy 261.62 34.544)
 		)
 		(stroke
 			(width 0)
@@ -4684,7 +4440,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.076 28.194) (xy 227.076 32.004)
+			(xy 219.71 28.194) (xy 219.71 32.004)
 		)
 		(stroke
 			(width 0)
@@ -4694,7 +4450,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 28.194) (xy 189.23 28.194)
+			(xy 178.054 28.194) (xy 181.864 28.194)
 		)
 		(stroke
 			(width 0)
@@ -4724,7 +4480,7 @@
 	)
 	(wire
 		(pts
-			(xy 268.986 42.164) (xy 268.986 69.85)
+			(xy 261.62 42.164) (xy 261.62 69.85)
 		)
 		(stroke
 			(width 0)
@@ -4754,6 +4510,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.618 150.622) (xy 249.428 150.622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97caa646-a78c-4e50-b891-3e06381ed990")
+	)
+	(wire
+		(pts
 			(xy 52.832 40.132) (xy 52.832 43.942)
 		)
 		(stroke
@@ -4764,33 +4530,13 @@
 	)
 	(wire
 		(pts
-			(xy 206.756 58.42) (xy 206.756 58.928)
+			(xy 199.39 58.42) (xy 199.39 58.928)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9b535e28-a9ad-4541-b882-8821d5c4e5fe")
-	)
-	(wire
-		(pts
-			(xy 230.886 150.622) (xy 235.458 150.622)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b88d15c-ed6d-4e9b-bc70-a2405771f442")
-	)
-	(wire
-		(pts
-			(xy 130.81 181.864) (xy 132.334 181.864)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0dd6954-5294-4071-8251-c6b22bc1486b")
 	)
 	(wire
 		(pts
@@ -4814,7 +4560,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.696 28.194) (xy 234.696 29.464)
+			(xy 227.33 28.194) (xy 227.33 29.464)
 		)
 		(stroke
 			(width 0)
@@ -4864,7 +4610,7 @@
 	)
 	(wire
 		(pts
-			(xy 206.756 69.088) (xy 206.756 69.85)
+			(xy 199.39 69.088) (xy 199.39 69.85)
 		)
 		(stroke
 			(width 0)
@@ -4874,7 +4620,17 @@
 	)
 	(wire
 		(pts
-			(xy 176.276 28.194) (xy 176.276 29.464)
+			(xy 245.618 135.382) (xy 249.428 135.382)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b010a84b-2e61-42c0-8b66-d9bd833c0764")
+	)
+	(wire
+		(pts
+			(xy 168.91 28.194) (xy 168.91 29.464)
 		)
 		(stroke
 			(width 0)
@@ -4904,7 +4660,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.162 108.712) (xy 153.162 114.046)
+			(xy 153.162 108.712) (xy 153.162 119.126)
 		)
 		(stroke
 			(width 0)
@@ -4914,17 +4670,7 @@
 	)
 	(wire
 		(pts
-			(xy 230.886 135.382) (xy 235.458 135.382)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b94afacf-4135-4b0a-b943-0517238c211e")
-	)
-	(wire
-		(pts
-			(xy 176.276 37.084) (xy 176.276 37.338)
+			(xy 168.91 37.084) (xy 168.91 37.338)
 		)
 		(stroke
 			(width 0)
@@ -4984,7 +4730,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.696 66.294) (xy 234.696 69.85)
+			(xy 227.33 66.294) (xy 227.33 69.85)
 		)
 		(stroke
 			(width 0)
@@ -5004,7 +4750,7 @@
 	)
 	(wire
 		(pts
-			(xy 235.712 53.594) (xy 234.696 53.594)
+			(xy 228.346 53.594) (xy 227.33 53.594)
 		)
 		(stroke
 			(width 0)
@@ -5014,23 +4760,23 @@
 	)
 	(wire
 		(pts
-			(xy 78.232 33.782) (xy 78.232 41.402)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5c1b73d-9885-4ebf-8a34-071858a387bf")
-	)
-	(wire
-		(pts
-			(xy 213.614 19.05) (xy 216.154 19.05)
+			(xy 206.248 19.05) (xy 208.788 19.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c5eb7e97-275e-434c-80c7-f261ab7e67c8")
+	)
+	(wire
+		(pts
+			(xy 257.048 135.382) (xy 262.382 135.382)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc50e744-fa07-4bb4-9acf-b6877df22a3e")
 	)
 	(wire
 		(pts
@@ -5054,16 +4800,6 @@
 	)
 	(wire
 		(pts
-			(xy 243.078 135.382) (xy 246.888 135.382)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ced1273d-d7d3-426f-8c6a-8facd82486b7")
-	)
-	(wire
-		(pts
 			(xy 177.292 102.362) (xy 177.292 111.252)
 		)
 		(stroke
@@ -5084,7 +4820,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 152.4) (xy 154.94 156.972)
+			(xy 129.032 178.308) (xy 129.032 182.88)
 		)
 		(stroke
 			(width 0)
@@ -5104,6 +4840,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.048 150.622) (xy 262.382 150.622)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d407a01a-7711-449d-a345-6b1299511b39")
+	)
+	(wire
+		(pts
 			(xy 230.886 120.142) (xy 230.886 135.382)
 		)
 		(stroke
@@ -5114,7 +4860,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 156.972) (xy 162.052 156.972)
+			(xy 129.032 182.88) (xy 136.144 182.88)
 		)
 		(stroke
 			(width 0)
@@ -5124,7 +4870,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.564 46.482) (xy 206.756 46.482)
+			(xy 187.198 46.482) (xy 199.39 46.482)
 		)
 		(stroke
 			(width 0)
@@ -5134,7 +4880,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.696 39.624) (xy 234.696 40.894)
+			(xy 227.33 39.624) (xy 227.33 40.894)
 		)
 		(stroke
 			(width 0)
@@ -5154,7 +4900,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.076 69.85) (xy 234.696 69.85)
+			(xy 219.71 69.85) (xy 227.33 69.85)
 		)
 		(stroke
 			(width 0)
@@ -5164,7 +4910,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.276 25.654) (xy 176.276 28.194)
+			(xy 168.91 25.654) (xy 168.91 28.194)
 		)
 		(stroke
 			(width 0)
@@ -5194,7 +4940,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.206 28.194) (xy 251.206 37.084)
+			(xy 243.84 28.194) (xy 243.84 37.084)
 		)
 		(stroke
 			(width 0)
@@ -5214,7 +4960,17 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 39.624) (xy 188.976 39.624)
+			(xy 271.272 28.194) (xy 271.272 40.386)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea8499aa-99e4-46d2-b5b3-6dc5b1337a62")
+	)
+	(wire
+		(pts
+			(xy 178.054 39.624) (xy 181.61 39.624)
 		)
 		(stroke
 			(width 0)
@@ -5224,7 +4980,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.452 25.654) (xy 187.452 37.338)
+			(xy 180.086 25.654) (xy 180.086 37.338)
 		)
 		(stroke
 			(width 0)
@@ -5254,7 +5010,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.206 69.85) (xy 257.556 69.85)
+			(xy 243.84 69.85) (xy 250.19 69.85)
 		)
 		(stroke
 			(width 0)
@@ -5274,7 +5030,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.556 28.194) (xy 257.556 42.164)
+			(xy 250.19 28.194) (xy 250.19 42.164)
 		)
 		(stroke
 			(width 0)
@@ -5294,7 +5050,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.696 53.594) (xy 234.696 56.134)
+			(xy 227.33 53.594) (xy 227.33 56.134)
 		)
 		(stroke
 			(width 0)
@@ -5344,7 +5100,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.212 156.972) (xy 181.61 156.972)
+			(xy 146.304 182.88) (xy 155.702 182.88)
 		)
 		(stroke
 			(width 0)
@@ -5361,6 +5117,16 @@
 			(type default)
 		)
 		(uuid "f8945694-dcbc-4d97-832e-7b8175fdbe85")
+	)
+	(wire
+		(pts
+			(xy 271.272 48.006) (xy 271.272 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb1cf0df-c3b9-47e6-8745-dd0e4adf1647")
 	)
 	(wire
 		(pts
@@ -5382,7 +5148,17 @@
 		)
 		(uuid "fcf0a095-12ab-4c43-8bec-41cbdb187c38")
 	)
-	(label "P1.09"
+	(wire
+		(pts
+			(xy 230.886 135.382) (xy 235.458 135.382)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fda8f655-00d1-4c11-9ee1-9038a5c64e4c")
+	)
+	(label "P1.07"
 		(at 31.75 182.118 180)
 		(effects
 			(font
@@ -5402,7 +5178,7 @@
 		)
 		(uuid "34c19ef7-cf9c-458f-84ec-a6860b36bfdd")
 	)
-	(label "P0.04"
+	(label "P2.04"
 		(at 31.75 171.958 180)
 		(effects
 			(font
@@ -5422,7 +5198,7 @@
 		)
 		(uuid "5e59b526-e60b-468e-ae8b-004e7571e46b")
 	)
-	(label "P1.10"
+	(label "P1.06"
 		(at 31.75 179.578 180)
 		(effects
 			(font
@@ -5432,7 +5208,7 @@
 		)
 		(uuid "7316e99e-378f-416d-b62c-86b1b5128d6a")
 	)
-	(label "P1.11"
+	(label "P2.02"
 		(at 49.53 179.578 0)
 		(effects
 			(font
@@ -5442,7 +5218,7 @@
 		)
 		(uuid "83cc5958-e28d-4aa9-8825-f4cb21f1e100")
 	)
-	(label "P0.03"
+	(label "P2.03"
 		(at 31.75 174.498 180)
 		(effects
 			(font
@@ -5472,7 +5248,7 @@
 		)
 		(uuid "b9ca30ac-56ad-4169-8fc7-4e54d6303394")
 	)
-	(label "P0.02"
+	(label "P1.05"
 		(at 31.75 177.038 180)
 		(effects
 			(font
@@ -5810,7 +5586,7 @@
 	)
 	(global_label "SW_FB"
 		(shape bidirectional)
-		(at 189.23 23.114 180)
+		(at 181.864 23.114 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5820,7 +5596,7 @@
 		)
 		(uuid "3d8937d0-b4c7-43f1-9919-8a31181a6a9c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 180.0269 23.114 0)
+			(at 172.6609 23.114 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5832,7 +5608,7 @@
 	)
 	(global_label "SW_EN"
 		(shape bidirectional)
-		(at 216.154 19.05 0)
+		(at 208.788 19.05 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5842,7 +5618,7 @@
 		)
 		(uuid "4ec7cfef-1427-4b04-a317-7701f3313554")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 225.3571 19.05 0)
+			(at 217.9911 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5874,9 +5650,9 @@
 			)
 		)
 	)
-	(global_label "P2.05"
+	(global_label "P1.01"
 		(shape bidirectional)
-		(at 262.128 150.622 0)
+		(at 262.382 150.622 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5886,7 +5662,7 @@
 		)
 		(uuid "57877a9c-cb71-4aeb-aa4d-f91a952c7fe6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 271.3311 150.622 0)
+			(at 271.5851 150.622 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5898,7 +5674,7 @@
 	)
 	(global_label "SW_FB"
 		(shape bidirectional)
-		(at 235.712 53.594 0)
+		(at 228.346 53.594 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5908,7 +5684,7 @@
 		)
 		(uuid "58a6a689-3483-4345-ae18-861ec6dac28e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 244.9151 53.594 0)
+			(at 237.5491 53.594 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5920,7 +5696,7 @@
 	)
 	(global_label "SW_EN"
 		(shape bidirectional)
-		(at 194.564 46.482 180)
+		(at 187.198 46.482 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5930,7 +5706,7 @@
 		)
 		(uuid "59179612-afb9-4969-8b67-3d362b77c479")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.3609 46.482 0)
+			(at 177.9949 46.482 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5984,7 +5760,7 @@
 			)
 		)
 	)
-	(global_label "P0.03"
+	(global_label "P0.00"
 		(shape bidirectional)
 		(at 262.636 104.902 0)
 		(fields_autoplaced yes)
@@ -6116,9 +5892,9 @@
 			)
 		)
 	)
-	(global_label "P2.06"
+	(global_label "P1.00"
 		(shape bidirectional)
-		(at 262.128 135.382 0)
+		(at 262.382 135.382 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6128,7 +5904,7 @@
 		)
 		(uuid "96e1c95a-c21d-41e2-ad07-e6b7ea72f45d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 271.3311 135.382 0)
+			(at 271.5851 135.382 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6226,7 +6002,7 @@
 			)
 		)
 	)
-	(global_label "P0.04"
+	(global_label "P0.01"
 		(shape bidirectional)
 		(at 262.636 120.142 0)
 		(fields_autoplaced yes)
@@ -6314,9 +6090,9 @@
 			)
 		)
 	)
-	(global_label "P1.12"
+	(global_label "P1.11"
 		(shape bidirectional)
-		(at 181.61 156.972 0)
+		(at 155.702 182.88 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6326,7 +6102,7 @@
 		)
 		(uuid "c1ac79b3-b481-4523-a44d-964dbba4fe29")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.8131 156.972 0)
+			(at 164.9051 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6514,15 +6290,15 @@
 	)
 	(symbol
 		(lib_id "easyeda2kicad:FTC252012S1R0MBCD")
-		(at 220.726 28.194 0)
+		(at 213.36 28.194 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "0ee55219-8744-4b14-a666-ee5c550dc44c")
-		(property "Reference" "L4"
-			(at 216.154 25.146 0)
+		(property "Reference" "L1"
+			(at 208.788 25.146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6530,7 +6306,7 @@
 			)
 		)
 		(property "Value" "1uH"
-			(at 219.456 25.146 0)
+			(at 212.09 25.146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6538,7 +6314,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:L1008"
-			(at 220.726 35.814 0)
+			(at 213.36 35.814 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6547,7 +6323,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.726 28.194 0)
+			(at 213.36 28.194 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6556,7 +6332,7 @@
 			)
 		)
 		(property "Description" "16mΩ"
-			(at 223.774 25.146 0)
+			(at 216.408 25.146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6564,7 +6340,7 @@
 			)
 		)
 		(property "LCSC Part" "C22400405"
-			(at 220.726 38.354 0)
+			(at 213.36 38.354 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6581,7 +6357,7 @@
 		(instances
 			(project ""
 				(path "/0864898c-5307-44d7-ba2c-a6227ddaacc4"
-					(reference "L4")
+					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -6589,7 +6365,7 @@
 	)
 	(symbol
 		(lib_id "easyeda2kicad:TD-1183SN-1.7H-250")
-		(at 167.132 156.972 0)
+		(at 141.224 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6597,7 +6373,7 @@
 		(dnp no)
 		(uuid "0feaf583-41af-4ec6-901e-2d38f61d72ac")
 		(property "Reference" "SW2"
-			(at 167.132 153.162 0)
+			(at 141.224 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6605,7 +6381,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 167.132 152.4 0)
+			(at 141.224 178.308 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6614,7 +6390,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:KEY-SMD_B3U-1000PM"
-			(at 167.132 164.592 0)
+			(at 141.224 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6623,7 +6399,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.132 156.972 0)
+			(at 141.224 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6632,7 +6408,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 167.132 156.972 0)
+			(at 141.224 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6641,7 +6417,7 @@
 			)
 		)
 		(property "LCSC Part" "C231329"
-			(at 167.132 167.132 0)
+			(at 141.224 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6674,7 +6450,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "106de7ac-381b-4412-9b96-a275af5d5517")
-		(property "Reference" "C12"
+		(property "Reference" "C1"
 			(at 69.342 19.8119 0)
 			(effects
 				(font
@@ -6701,7 +6477,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121934_Murata-Electronics-GRM035C80J225ME01D_C5140319.pdf"
+		(property "Datasheet" ""
 			(at 65.532 21.082 0)
 			(effects
 				(font
@@ -6719,7 +6495,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C5140319"
+		(property "LCSC Part" "C76933"
 			(at 65.532 21.082 0)
 			(effects
 				(font
@@ -6737,7 +6513,7 @@
 		(instances
 			(project "nrf54l-module"
 				(path "/0864898c-5307-44d7-ba2c-a6227ddaacc4"
-					(reference "C12")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -6745,7 +6521,7 @@
 	)
 	(symbol
 		(lib_id "easyeda2kicad:TLV62569DRLR")
-		(at 200.66 25.654 0)
+		(at 193.294 25.654 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6753,8 +6529,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10b6222d-6a8c-47b1-b3e7-c9ffbae4017b")
-		(property "Reference" "U6"
-			(at 200.66 16.51 0)
+		(property "Reference" "U1"
+			(at 193.294 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6762,7 +6538,7 @@
 			)
 		)
 		(property "Value" "TLV62569DRLR"
-			(at 200.66 19.05 0)
+			(at 193.294 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6770,7 +6546,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:SOT-563_L1.6-W1.2-P0.50-LS1.6-BL"
-			(at 200.66 35.814 0)
+			(at 193.294 35.814 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6779,7 +6555,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/DC-DC-Converters_Texas-Instruments-TI-TLV62569DRLR_C163217.html"
-			(at 200.66 38.354 0)
+			(at 193.294 38.354 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6788,7 +6564,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 200.66 25.654 0)
+			(at 193.294 25.654 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6797,7 +6573,7 @@
 			)
 		)
 		(property "LCSC Part" "C163217"
-			(at 200.66 40.894 0)
+			(at 193.294 40.894 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6826,83 +6602,7 @@
 		(instances
 			(project "nrf54l-module"
 				(path "/0864898c-5307-44d7-ba2c-a6227ddaacc4"
-					(reference "U6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 127 181.864 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1253429c-767f-4630-b803-18c9c3b1b630")
-		(property "Reference" "R2"
-			(at 124.968 184.912 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1kΩ"
-			(at 128.524 184.912 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 127 183.642 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0201WMF1001TEE_C270365.pdf"
-			(at 127 181.864 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 127 181.864 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C270365"
-			(at 127 181.864 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "dc99e7c2-6f5b-43f6-8471-2ae3ea1dea1f")
-		)
-		(pin "1"
-			(uuid "708a43fc-c499-4ce1-88b2-e83f5361ec5e")
-		)
-		(instances
-			(project "nrf54l-module"
-				(path "/0864898c-5307-44d7-ba2c-a6227ddaacc4"
-					(reference "R2")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -6910,7 +6610,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 257.556 45.974 0)
+		(at 250.19 45.974 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6918,8 +6618,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "148f3b43-05ca-4322-b703-1e05a2490bd1")
-		(property "Reference" "C20"
-			(at 261.366 44.7039 0)
+		(property "Reference" "C12"
+			(at 254 44.7039 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6928,7 +6628,7 @@
 			)
 		)
 		(property "Value" "10nF"
-			(at 261.366 47.2439 0)
+			(at 254 47.2439 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6937,7 +6637,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 258.5212 49.784 0)
+			(at 251.1552 49.784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6946,7 +6646,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121857_Murata-Electronics-GRM033R71A103KA01D_C76941.pdf"
-			(at 257.556 45.974 0)
+			(at 250.19 45.974 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6955,7 +6655,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 257.556 45.974 0)
+			(at 250.19 45.974 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6964,7 +6664,7 @@
 			)
 		)
 		(property "LCSC Part" "C76941"
-			(at 257.556 45.974 0)
+			(at 250.19 45.974 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6981,7 +6681,7 @@
 		(instances
 			(project "nrf54l-module"
 				(path "/0864898c-5307-44d7-ba2c-a6227ddaacc4"
-					(reference "C20")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -6996,7 +6696,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1a8b691a-ea81-45bf-b094-f93bb841270f")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR07"
 			(at 52.832 50.292 0)
 			(effects
 				(font
@@ -7046,7 +6746,7 @@
 		(instances
 			(project "nrf54l-module"
 				(path "/0864898c-5307-44d7-ba2c-a6227ddaacc4"
-					(reference "#PWR05")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -7054,15 +6754,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 251.206 40.894 180)
+		(at 243.84 40.894 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "1d8f5544-391a-40c0-9046-dde6b7378f8c")
-		(property "Reference" "C19"
-			(at 246.126 39.624 0)
+		(property "Reference" "C10"
+			(at 238.76 39.624 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7070,7 +6770,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 245.11 41.91 0)
+			(at 237.744 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7078,7 +6778,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 250.2408 37.084 0)
+			(at 242.8748 37.084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7087,7 +6787,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2105241313_Murata-Electronics-GRM033Z71C104KE14D_C668346.pdf"
-			(at 251.206 40.894 0)
+			(at 243.84 40.894 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7096,7 +6796,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 251.206 40.894 0)
+			(at 243.84 40.894 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7105,7 +6805,7 @@
 			)
 		)
 		(property "LCSC Part" "C668346"
-			(at 251.206 40.894 0)
+			(at 243.84 40.894 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7122,7 +6822,7 @@
 		(instances
 			(project "nrf54l-module"
 				(path "/0864898c-5307-44d7-ba2c-a6227ddaacc4"
-					(reference "C19")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -7271,7 +6971,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2015bfe7-7737-4e57-8cb8-2c9e3f7a4d7d")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR03"
 			(at 32.766 34.036 0)
 			(effects
 				(font
@@ -7321,7 +7021,7 @@
 		(instances
 			(project "nrf54l-module"
 				(path "/0864898c-5307-44d7-ba2c-a6227ddaacc4"
-					(reference "#PWR02")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -7337,7 +7037,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "203f3b58-742e-4013-ab88-cc542e4cde9a")
-		(property "Reference" "C8"
+		(property "Reference" "C18"
 			(at 195.072 113.7919 0)
 			(effects
 				(font
@@ -7400,7 +7100,7 @@
 		(instances
 			(project "nrf54l-module"
 				(path "/0864898c-5307-44d7-ba2c-a6227ddaacc4"
-					(reference "C8")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -7416,7 +7116,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25546028-7de2-4b57-8f7b-4fd6d6654b10")
-		(property "Reference" "C5"
+		(property "Reference" "C3"
 			(at 94.742 19.8119 0)
 			(effects
 				(font
@@ -7479,7 +7179,7 @@
 		(instances
 			(project "nrf54l-module"
 				(path "/0864898c-5307-44d7-ba2c-a6227ddaacc4"
-					(reference "C5")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -7610,7 +7310,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "290dc946-c056-4872-b86e-4ce15a098d44")
-		(property "Reference" "C6"
+		(property "Reference" "C17"
 			(at 171.45 114.046 0)
 			(effects
 				(font
@@ -7673,7 +7373,84 @@
 		(instances
 			(project "nrf54l-module"
 				(path "/0864898c-5307-44d7-ba2c-a6227ddaacc4"
-					(reference "C6")
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:TZ-P2-0402RTIA1-0.45T")
+		(at 241.046 120.142 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2c474777-3363-494e-a120-f65b4e624cb0")
+		(property "Reference" "LED2"
+			(at 242.824 116.586 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TZ-P2-0402RTIA1-0.45T"
+			(at 240.286 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:LED0402-RD_RED"
+			(at 241.046 127.762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_TUOZHAN-TZ-P2-0402RTIA1-0-45T_C779449.html"
+			(at 241.046 130.302 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 241.046 120.142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C779449"
+			(at 241.046 132.842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8fa291ea-0fa7-4381-b2f4-a079458e72da")
+		)
+		(pin "1"
+			(uuid "aae4a82d-985d-4fe0-8a8c-e962e377692e")
+		)
+		(instances
+			(project "nrf54l-module"
+				(path "/0864898c-5307-44d7-ba2c-a6227ddaacc4"
+					(reference "LED2")
 					(unit 1)
 				)
 			)
@@ -7688,7 +7465,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "30156e8e-803a-45f0-81ba-c259e13bcea1")
-		(property "Reference" "C16"
+		(property "Reference" "C21"
 			(at 18.542 122.682 0)
 			(effects
 				(font
@@ -7749,7 +7526,7 @@
 		(instances
 			(project "nrf54l-module"
 				(path "/0864898c-5307-44d7-ba2c-a6227ddaacc4"
-					(reference "C16")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -7765,7 +7542,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "32c74b70-69d5-4c2f-a980-3fdf2a25c589")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR09"
 			(at 163.322 70.612 0)
 			(effects
 				(font
@@ -7815,7 +7592,7 @@
 		(instances
 			(project "nrf54l-module"
 				(path "/0864898c-5307-44d7-ba2c-a6227ddaacc4"
-					(reference "#PWR04")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -7831,7 +7608,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3390da49-569c-4f71-8c81-f3bb5b009990")
-		(property "Reference" "C9"
+		(property "Reference" "C22"
 			(at 101.092 165.8619 0)
 			(effects
 				(font
@@ -7894,7 +7671,7 @@
 		(instances
 			(project "nrf54l-module"
 				(path "/0864898c-5307-44d7-ba2c-a6227ddaacc4"
-					(reference "C9")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -7902,7 +7679,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 215.646 71.12 0)
+		(at 208.28 71.12 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7910,8 +7687,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "34ccf286-ddc7-4bd5-b844-454a351be4cf")
-		(property "Reference" "#PWR018"
-			(at 215.646 77.47 0)
+		(property "Reference" "#PWR010"
+			(at 208.28 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7920,7 +7697,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 215.646 75.692 0)
+			(at 208.28 75.692 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7928,7 +7705,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.646 71.12 0)
+			(at 208.28 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7937,7 +7714,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.646 71.12 0)
+			(at 208.28 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7946,7 +7723,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 215.646 71.12 0)
+			(at 208.28 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7960,7 +7737,83 @@
 		(instances
 			(project "nrf54l-module"
 				(path "/0864898c-5307-44d7-ba2c-a6227ddaacc4"
-					(reference "#PWR018")
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 253.238 135.382 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "36aedce5-e578-4d2d-a766-76472c20abbe")
+		(property "Reference" "R10"
+			(at 251.206 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1kΩ"
+			(at 254.762 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 253.238 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0201WMF1001TEE_C270365.pdf"
+			(at 253.238 135.382 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 253.238 135.382 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C270365"
+			(at 253.238 135.382 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "35bf8e3f-c703-40e3-84df-a4fedd68a299")
+		)
+		(pin "1"
+			(uuid "948462e4-f416-4870-bec0-350fb198e8d5")
+		)
+		(instances
+			(project "nrf54l-module"
+				(path "/0864898c-5307-44d7-ba2c-a6227ddaacc4"
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -7975,7 +7828,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "36d4e91c-4e94-4258-9379-c4fdecab423a")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR08"
 			(at 85.852 42.672 0)
 			(effects
 				(font
@@ -8026,7 +7879,7 @@
 		(instances
 			(project "nrf54l-module"
 				(path "/0864898c-5307-44d7-ba2c-a6227ddaacc4"
-					(reference "#PWR012")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -8034,15 +7887,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 268.986 38.354 180)
+		(at 261.62 38.354 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "3825e673-2060-4399-8b9b-901521d45a64")
-		(property "Reference" "C21"
-			(at 274.32 36.83 0)
+		(property "Reference" "C8"
+			(at 256.54 37.338 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8050,7 +7903,7 @@
 			)
 		)
 		(property "Value" "2.2nF"
-			(at 275.336 39.37 0)
+			(at 255.524 39.878 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8058,7 +7911,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 268.0208 34.544 0)
+			(at 260.6548 34.544 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8067,7 +7920,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121552_Murata-Electronics-GRM033R71C222KA88D_C97860.pdf"
-			(at 268.986 38.354 0)
+			(at 261.62 38.354 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8076,7 +7929,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 268.986 38.354 0)
+			(at 261.62 38.354 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8085,7 +7938,7 @@
 			)
 		)
 		(property "LCSC Part" "C97860"
-			(at 268.986 38.354 0)
+			(at 261.62 38.354 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8102,7 +7955,7 @@
 		(instances
 			(project "nrf54l-module"
 				(path "/0864898c-5307-44d7-ba2c-a6227ddaacc4"
-					(reference "C21")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -8117,7 +7970,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3c14a754-2716-4534-92cc-8a88b8f526f7")
-		(property "Reference" "C3"
+		(property "Reference" "C9"
 			(at 62.738 42.164 90)
 			(effects
 				(font
@@ -8178,7 +8031,7 @@
 		(instances
 			(project "nrf54l-module"
 				(path "/0864898c-5307-44d7-ba2c-a6227ddaacc4"
-					(reference "C3")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -8193,7 +8046,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3cd9cce5-cf01-4b07-9177-12aaa8068068")
-		(property "Reference" "L2"
+		(property "Reference" "L3"
 			(at 180.34 104.902 0)
 			(effects
 				(font
@@ -8254,7 +8107,84 @@
 		(instances
 			(project ""
 				(path "/0864898c-5307-44d7-ba2c-a6227ddaacc4"
-					(reference "L2")
+					(reference "L3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:TZ-P2-0402RTIA1-0.45T")
+		(at 240.538 150.622 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "448a7323-9a96-4eb4-8887-06c85d8b1e10")
+		(property "Reference" "LED4"
+			(at 242.316 147.066 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TZ-P2-0402RTIA1-0.45T"
+			(at 239.778 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:LED0402-RD_RED"
+			(at 240.538 158.242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_TUOZHAN-TZ-P2-0402RTIA1-0-45T_C779449.html"
+			(at 240.538 160.782 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 240.538 150.622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C779449"
+			(at 240.538 163.322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "322c79b9-07c3-4bd2-af3c-0cb5c0dadfb6")
+		)
+		(pin "1"
+			(uuid "1a124685-2f8d-4699-83fc-d8306e598cf6")
+		)
+		(instances
+			(project "nrf54l-module"
+				(path "/0864898c-5307-44d7-ba2c-a6227ddaacc4"
+					(reference "LED4")
 					(unit 1)
 				)
 			)
@@ -8269,7 +8199,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "50d3750c-c5e0-49fb-be35-8e39f7e5866e")
-		(property "Reference" "C10"
+		(property "Reference" "C13"
 			(at 63.5 48.514 90)
 			(effects
 				(font
@@ -8330,7 +8260,7 @@
 		(instances
 			(project "nrf54l-module"
 				(path "/0864898c-5307-44d7-ba2c-a6227ddaacc4"
-					(reference "C10")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -8345,7 +8275,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "52b71345-5585-4008-9d96-e8790b5fb182")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR011"
 			(at 151.892 88.392 0)
 			(effects
 				(font
@@ -8395,7 +8325,7 @@
 		(instances
 			(project "nrf54l-module"
 				(path "/0864898c-5307-44d7-ba2c-a6227ddaacc4"
-					(reference "#PWR03")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -8411,7 +8341,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5950fd55-b5a7-4d0a-b111-a6a7132a769c")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR014"
 			(at 177.292 130.302 0)
 			(effects
 				(font
@@ -8461,7 +8391,7 @@
 		(instances
 			(project "nrf54l-module"
 				(path "/0864898c-5307-44d7-ba2c-a6227ddaacc4"
-					(reference "#PWR08")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -8469,15 +8399,15 @@
 	)
 	(symbol
 		(lib_id "easyeda2kicad:GRM155R60J106ME44D")
-		(at 176.276 33.274 90)
+		(at 168.91 33.274 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "5a1a7fda-3647-4a96-bf1d-a269a3406992")
-		(property "Reference" "C17"
-			(at 171.704 32.004 90)
+		(property "Reference" "C4"
+			(at 164.338 32.004 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8485,7 +8415,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 171.196 34.29 90)
+			(at 163.83 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8493,7 +8423,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:C0402"
-			(at 183.896 33.274 0)
+			(at 176.53 33.274 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8502,7 +8432,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_muRata_GRM155R60J106ME44D_10uF-106-20-6-3V_C76991.html"
-			(at 186.436 33.274 0)
+			(at 179.07 33.274 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8511,7 +8441,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 176.276 33.274 0)
+			(at 168.91 33.274 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8520,7 +8450,7 @@
 			)
 		)
 		(property "LCSC Part" "C76991"
-			(at 188.976 33.274 0)
+			(at 181.61 33.274 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8537,7 +8467,7 @@
 		(instances
 			(project "nrf54l-module"
 				(path "/0864898c-5307-44d7-ba2c-a6227ddaacc4"
-					(reference "C17")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -8553,7 +8483,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5abe9afc-1b63-446b-a516-39e7d8c818b1")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR012"
 			(at 270.256 87.122 0)
 			(effects
 				(font
@@ -8603,7 +8533,7 @@
 		(instances
 			(project ""
 				(path "/0864898c-5307-44d7-ba2c-a6227ddaacc4"
-					(reference "#PWR01")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -8611,7 +8541,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V8")
-		(at 176.276 25.654 0)
+		(at 168.91 25.654 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8619,8 +8549,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5fe11d28-3442-46a7-a341-0e365999a782")
-		(property "Reference" "#PWR016"
-			(at 176.276 29.464 0)
+		(property "Reference" "#PWR01"
+			(at 168.91 29.464 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8629,7 +8559,7 @@
 			)
 		)
 		(property "Value" "VIN"
-			(at 176.276 20.574 0)
+			(at 168.91 20.574 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8637,7 +8567,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 176.276 25.654 0)
+			(at 168.91 25.654 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8646,7 +8576,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.276 25.654 0)
+			(at 168.91 25.654 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8655,7 +8585,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 176.276 25.654 0)
+			(at 168.91 25.654 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8669,7 +8599,7 @@
 		(instances
 			(project "nrf54l-module"
 				(path "/0864898c-5307-44d7-ba2c-a6227ddaacc4"
-					(reference "#PWR016")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -8684,7 +8614,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "60e275a0-e816-4d02-9c11-0da1f726dac5")
-		(property "Reference" "C11"
+		(property "Reference" "C15"
 			(at 148.082 58.166 90)
 			(effects
 				(font
@@ -8745,84 +8675,7 @@
 		(instances
 			(project "nrf54l-module"
 				(path "/0864898c-5307-44d7-ba2c-a6227ddaacc4"
-					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad:BLM03PX121SN1D")
-		(at 83.312 33.782 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "62f7b8cf-17df-45cf-86f9-20218f5e1231")
-		(property "Reference" "FB1"
-			(at 83.312 30.988 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BLM03PX121SN1D"
-			(at 83.312 36.322 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:L0201"
-			(at 83.312 26.162 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 83.312 33.782 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 83.312 33.782 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C525479"
-			(at 83.312 23.622 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a0981b83-0d9d-4a30-8ece-15fe7a869a91")
-		)
-		(pin "2"
-			(uuid "914cb3e4-4b1b-49f7-85d3-cc3fdf79e4fd")
-		)
-		(instances
-			(project ""
-				(path "/0864898c-5307-44d7-ba2c-a6227ddaacc4"
-					(reference "FB1")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -8837,7 +8690,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6328c1c5-e959-4cca-b8e4-8a2b72a7c8a5")
-		(property "Reference" "C2"
+		(property "Reference" "C16"
 			(at 170.434 88.9 90)
 			(effects
 				(font
@@ -8898,7 +8751,7 @@
 		(instances
 			(project "nrf54l-module"
 				(path "/0864898c-5307-44d7-ba2c-a6227ddaacc4"
-					(reference "C2")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -8906,7 +8759,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 176.276 38.354 0)
+		(at 168.91 38.354 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8914,8 +8767,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "63d373db-078e-48a7-92f8-79be81ed9999")
-		(property "Reference" "#PWR015"
-			(at 176.276 44.704 0)
+		(property "Reference" "#PWR05"
+			(at 168.91 44.704 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8924,7 +8777,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 176.276 42.926 0)
+			(at 168.91 42.926 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8932,7 +8785,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 176.276 38.354 0)
+			(at 168.91 38.354 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8941,7 +8794,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.276 38.354 0)
+			(at 168.91 38.354 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8950,7 +8803,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 176.276 38.354 0)
+			(at 168.91 38.354 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8964,7 +8817,7 @@
 		(instances
 			(project "nrf54l-module"
 				(path "/0864898c-5307-44d7-ba2c-a6227ddaacc4"
-					(reference "#PWR015")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -8979,7 +8832,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "655162f3-db02-42b9-b3bc-b9b8b0cbfb88")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR013"
 			(at 187.452 101.092 0)
 			(effects
 				(font
@@ -9029,7 +8882,7 @@
 		(instances
 			(project "nrf54l-module"
 				(path "/0864898c-5307-44d7-ba2c-a6227ddaacc4"
-					(reference "#PWR07")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -9044,7 +8897,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6ace11cf-119a-44a6-a640-ffeb0a183818")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR017"
 			(at 97.282 178.562 0)
 			(effects
 				(font
@@ -9094,84 +8947,7 @@
 		(instances
 			(project "nrf54l-module"
 				(path "/0864898c-5307-44d7-ba2c-a6227ddaacc4"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad:XL-0201SURC")
-		(at 117.348 181.864 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6d26d1c0-e114-4952-8af0-69b197e4d927")
-		(property "Reference" "U2"
-			(at 116.588 172.974 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "XL-0201SURC"
-			(at 116.588 175.514 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:LED-SMD_L0.65-W0.35-P0.41_XL-0201SURC"
-			(at 117.348 189.484 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 117.348 181.864 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 117.348 181.864 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C3646923"
-			(at 117.348 192.024 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "28935348-f3e1-4d24-bac2-f812590b130a")
-		)
-		(pin "2"
-			(uuid "0ddc15d7-5096-4bdf-85cf-c4892d865006")
-		)
-		(instances
-			(project ""
-				(path "/0864898c-5307-44d7-ba2c-a6227ddaacc4"
-					(reference "U2")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -9186,7 +8962,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "702963e6-3f9d-4fba-9f0c-ff464ea1c5e1")
-		(property "Reference" "L3"
+		(property "Reference" "L4"
 			(at 194.818 104.648 0)
 			(effects
 				(font
@@ -9247,7 +9023,7 @@
 		(instances
 			(project "nrf54l-module"
 				(path "/0864898c-5307-44d7-ba2c-a6227ddaacc4"
-					(reference "L3")
+					(reference "L4")
 					(unit 1)
 				)
 			)
@@ -9262,7 +9038,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "709e7e71-4f58-469f-a1de-ca599f4924c5")
-		(property "Reference" "C1"
+		(property "Reference" "C2"
 			(at 81.788 19.558 0)
 			(effects
 				(font
@@ -9289,7 +9065,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121934_Murata-Electronics-GRM035C80J225ME01D_C5140319.pdf"
+		(property "Datasheet" ""
 			(at 78.232 21.082 0)
 			(effects
 				(font
@@ -9307,7 +9083,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C5140319"
+		(property "LCSC Part" "C76933"
 			(at 78.232 21.082 0)
 			(effects
 				(font
@@ -9334,49 +9110,39 @@
 		(instances
 			(project ""
 				(path "/0864898c-5307-44d7-ba2c-a6227ddaacc4"
-					(reference "C1")
+					(reference "C2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "easyeda2kicad:XL-0201SURC")
-		(at 241.046 120.142 0)
+		(lib_id "Device:R")
+		(at 253.238 150.622 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "7c4aaa86-b9d0-488a-8b8c-f4ef7a3a7cfe")
-		(property "Reference" "U4"
-			(at 241.808 115.824 0)
+		(uuid "7798f531-b6a2-455d-a163-c2d1607a2034")
+		(property "Reference" "R11"
+			(at 251.206 153.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "XL-0201SURC"
-			(at 240.286 113.792 0)
+		(property "Value" "1kΩ"
+			(at 255.524 153.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:LED-SMD_L0.65-W0.35-P0.41_XL-0201SURC"
-			(at 241.046 127.762 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.046 120.142 0)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 253.238 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9384,8 +9150,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 241.046 120.142 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0201WMF1001TEE_C270365.pdf"
+			(at 253.238 150.622 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9393,8 +9159,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C3646923"
-			(at 241.046 130.302 0)
+		(property "Description" "Resistor"
+			(at 253.238 150.622 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9402,16 +9168,25 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "bc0a48b7-609b-4b62-a9c6-c668cae4a796")
+		(property "LCSC Part" "C270365"
+			(at 253.238 150.622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "e4dca726-e803-48c8-a083-3f0f7b01b5cd")
+			(uuid "ee8e8e61-58b9-4efe-8ef9-44d67057236e")
+		)
+		(pin "1"
+			(uuid "6504ea02-f341-45ee-8ab9-9592a3162531")
 		)
 		(instances
 			(project "nrf54l-module"
 				(path "/0864898c-5307-44d7-ba2c-a6227ddaacc4"
-					(reference "U4")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -9419,7 +9194,7 @@
 	)
 	(symbol
 		(lib_id "easyeda2kicad:RC0402FR-07160KL")
-		(at 234.696 61.214 270)
+		(at 227.33 61.214 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9427,7 +9202,7 @@
 		(dnp no)
 		(uuid "7e475dc2-9787-4786-864c-3b6419abbfa5")
 		(property "Reference" "R5"
-			(at 237.744 59.944 90)
+			(at 230.378 59.944 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9435,7 +9210,7 @@
 			)
 		)
 		(property "Value" "RC0402FR-07160KL"
-			(at 238.506 61.214 0)
+			(at 231.14 61.214 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9444,7 +9219,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 227.076 61.214 0)
+			(at 219.71 61.214 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9453,7 +9228,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121248_TA-I-Tech-RM02FTN3163_C240016.pdf"
-			(at 224.536 61.214 0)
+			(at 217.17 61.214 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9462,7 +9237,7 @@
 			)
 		)
 		(property "Description" "169kΩ"
-			(at 239.268 62.23 90)
+			(at 231.902 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9470,7 +9245,7 @@
 			)
 		)
 		(property "LCSC Part" "C166333"
-			(at 221.996 61.214 0)
+			(at 214.63 61.214 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9494,92 +9269,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 239.268 135.382 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7f350ef2-f522-410a-95c6-c33488a3efb6")
-		(property "Reference" "R15"
-			(at 237.236 138.43 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1kΩ"
-			(at 240.792 138.43 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 239.268 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0201WMF1001TEE_C270365.pdf"
-			(at 239.268 135.382 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 239.268 135.382 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C270365"
-			(at 239.268 135.382 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ae3663fa-39e9-4724-8e91-5d81103bf45b")
-		)
-		(pin "1"
-			(uuid "4b4ce36e-9db8-45d8-9f6d-c8f10dc12fca")
-		)
-		(instances
-			(project "nrf54l-module"
-				(path "/0864898c-5307-44d7-ba2c-a6227ddaacc4"
-					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "easyeda2kicad:GRM155R60J106ME44D")
-		(at 227.076 35.814 270)
+		(at 219.71 35.814 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "88234f4a-20a0-41f2-8cc9-96ab73cd83be")
-		(property "Reference" "C18"
-			(at 222.504 34.544 90)
+		(property "Reference" "C7"
+			(at 215.138 34.544 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9587,7 +9286,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 221.996 37.084 90)
+			(at 214.63 37.084 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9595,7 +9294,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:C0402"
-			(at 219.456 35.814 0)
+			(at 212.09 35.814 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9604,7 +9303,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_muRata_GRM155R60J106ME44D_10uF-106-20-6-3V_C76991.html"
-			(at 216.916 35.814 0)
+			(at 209.55 35.814 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9613,7 +9312,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 227.076 35.814 0)
+			(at 219.71 35.814 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9622,7 +9321,7 @@
 			)
 		)
 		(property "LCSC Part" "C76991"
-			(at 214.376 35.814 0)
+			(at 207.01 35.814 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9639,7 +9338,7 @@
 		(instances
 			(project "nrf54l-module"
 				(path "/0864898c-5307-44d7-ba2c-a6227ddaacc4"
-					(reference "C18")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -9654,7 +9353,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "88e3cf19-3f81-44d2-be18-1e74f2cf3b18")
-		(property "Reference" "R8"
+		(property "Reference" "R7"
 			(at 251.714 107.95 90)
 			(effects
 				(font
@@ -9715,7 +9414,7 @@
 		(instances
 			(project "nrf54l-module"
 				(path "/0864898c-5307-44d7-ba2c-a6227ddaacc4"
-					(reference "R8")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -9723,7 +9422,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V8")
-		(at 154.94 152.4 0)
+		(at 129.032 178.308 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9731,8 +9430,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "900e572c-19b8-440b-ab43-18ef2c72afdb")
-		(property "Reference" "#PWR019"
-			(at 154.94 156.21 0)
+		(property "Reference" "#PWR018"
+			(at 129.032 182.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9741,7 +9440,7 @@
 			)
 		)
 		(property "Value" "+1V8"
-			(at 154.94 147.32 0)
+			(at 129.032 173.228 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9749,7 +9448,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 152.4 0)
+			(at 129.032 178.308 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9758,7 +9457,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 152.4 0)
+			(at 129.032 178.308 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9767,7 +9466,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 154.94 152.4 0)
+			(at 129.032 178.308 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9781,41 +9480,41 @@
 		(instances
 			(project "nrf54l-module"
 				(path "/0864898c-5307-44d7-ba2c-a6227ddaacc4"
-					(reference "#PWR019")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+1V8")
-		(at 234.696 25.654 0)
+		(lib_id "Device:C")
+		(at 271.272 44.196 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "94834538-cf7a-41b1-b3da-dd46b4891969")
-		(property "Reference" "#PWR017"
-			(at 234.696 29.464 0)
+		(uuid "90808211-6558-43dc-8c2b-6097439ea457")
+		(property "Reference" "C11"
+			(at 268.224 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Value" "+1V8"
-			(at 234.696 20.574 0)
+		(property "Value" "2.2uF"
+			(at 268.224 45.466 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 234.696 25.654 0)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 270.3068 40.386 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9824,7 +9523,171 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.696 25.654 0)
+			(at 271.272 44.196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 271.272 44.196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C76933"
+			(at 271.272 44.196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 271.272 44.196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a21e41c9-a59c-47e5-b27e-3482a3919871")
+		)
+		(pin "2"
+			(uuid "7b065282-0a3a-44cb-85ae-ade4fac6705f")
+		)
+		(instances
+			(project "nrf54l-module"
+				(path "/0864898c-5307-44d7-ba2c-a6227ddaacc4"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:TZ-P2-0402RTIA1-0.45T")
+		(at 241.046 104.902 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9142412a-5c20-4456-832f-3c47cadceced")
+		(property "Reference" "LED1"
+			(at 242.824 101.346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TZ-P2-0402RTIA1-0.45T"
+			(at 240.286 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:LED0402-RD_RED"
+			(at 241.046 112.522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_TUOZHAN-TZ-P2-0402RTIA1-0-45T_C779449.html"
+			(at 241.046 115.062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 241.046 104.902 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C779449"
+			(at 241.046 117.602 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e4846fa2-d862-4abf-8a05-e8d66a509711")
+		)
+		(pin "1"
+			(uuid "d1b6d14f-73b7-48ae-a416-d4ef7b8733f2")
+		)
+		(instances
+			(project ""
+				(path "/0864898c-5307-44d7-ba2c-a6227ddaacc4"
+					(reference "LED1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V8")
+		(at 227.33 25.654 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94834538-cf7a-41b1-b3da-dd46b4891969")
+		(property "Reference" "#PWR02"
+			(at 227.33 29.464 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1V8"
+			(at 227.33 20.574 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 227.33 25.654 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 25.654 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9833,7 +9696,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 234.696 25.654 0)
+			(at 227.33 25.654 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9847,7 +9710,7 @@
 		(instances
 			(project "nrf54l-module"
 				(path "/0864898c-5307-44d7-ba2c-a6227ddaacc4"
-					(reference "#PWR017")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -9862,7 +9725,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "97e1c2d1-ea53-4682-8e7a-7f9e8a695df2")
-		(property "Reference" "C23"
+		(property "Reference" "C5"
 			(at 28.194 32.766 90)
 			(effects
 				(font
@@ -9923,84 +9786,7 @@
 		(instances
 			(project "nrf54l-module"
 				(path "/0864898c-5307-44d7-ba2c-a6227ddaacc4"
-					(reference "C23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad:XL-0201SURC")
-		(at 251.968 135.382 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9818a138-cef8-4314-9b73-c347431e8e41")
-		(property "Reference" "U3"
-			(at 252.476 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "XL-0201SURC"
-			(at 251.208 129.032 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:LED-SMD_L0.65-W0.35-P0.41_XL-0201SURC"
-			(at 251.968 143.002 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 251.968 135.382 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 251.968 135.382 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C3646923"
-			(at 251.968 145.542 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f6978b7a-eb9c-49ef-bb59-abbd060f6389")
-		)
-		(pin "2"
-			(uuid "4bc16176-2f56-4247-94c3-c0bdc23e09ee")
-		)
-		(instances
-			(project "nrf54l-module"
-				(path "/0864898c-5307-44d7-ba2c-a6227ddaacc4"
-					(reference "U3")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -10093,7 +9879,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9a353e7a-7742-49fb-acda-9e0753405eb1")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 130.556 45.72 0)
 			(effects
 				(font
@@ -10295,7 +10081,7 @@
 		(instances
 			(project ""
 				(path "/0864898c-5307-44d7-ba2c-a6227ddaacc4"
-					(reference "U1")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -10303,7 +10089,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 159.766 128.778 0)
+		(at 153.162 132.588 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10311,8 +10097,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a0db5998-00d8-4c85-98c9-5397af5f7f32")
-		(property "Reference" "#PWR09"
-			(at 159.766 135.128 0)
+		(property "Reference" "#PWR016"
+			(at 153.162 138.938 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10321,7 +10107,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 159.766 133.35 0)
+			(at 153.162 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10329,7 +10115,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 159.766 128.778 0)
+			(at 153.162 132.588 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10338,7 +10124,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 159.766 128.778 0)
+			(at 153.162 132.588 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10347,7 +10133,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 159.766 128.778 0)
+			(at 153.162 132.588 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10361,83 +10147,7 @@
 		(instances
 			(project "nrf54l-module"
 				(path "/0864898c-5307-44d7-ba2c-a6227ddaacc4"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 164.592 181.864 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a32a1dc8-d0c9-4e98-8aea-336f62ec176f")
-		(property "Reference" "R14"
-			(at 162.56 184.912 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1kΩ"
-			(at 166.116 184.912 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 164.592 183.642 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0201WMF1001TEE_C270365.pdf"
-			(at 164.592 181.864 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 164.592 181.864 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C270365"
-			(at 164.592 181.864 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6c68b870-fa2c-4a04-90e8-770b1d7c8ae1")
-		)
-		(pin "1"
-			(uuid "7da3bdc6-e7f9-4507-ae5a-5b88012c4a90")
-		)
-		(instances
-			(project "nrf54l-module"
-				(path "/0864898c-5307-44d7-ba2c-a6227ddaacc4"
-					(reference "R14")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -10452,7 +10162,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a3cb3218-6e8d-4627-b8db-86a7aab2605c")
-		(property "Reference" "C22"
+		(property "Reference" "C14"
 			(at 147.828 49.276 0)
 			(effects
 				(font
@@ -10513,7 +10223,7 @@
 		(instances
 			(project "nrf54l-module"
 				(path "/0864898c-5307-44d7-ba2c-a6227ddaacc4"
-					(reference "C22")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -10528,7 +10238,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a4f96de0-21e7-4e84-94d0-78ebb46e0c79")
-		(property "Reference" "C4"
+		(property "Reference" "C6"
 			(at 65.786 33.02 0)
 			(effects
 				(font
@@ -10589,7 +10299,7 @@
 		(instances
 			(project ""
 				(path "/0864898c-5307-44d7-ba2c-a6227ddaacc4"
-					(reference "C4")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -10688,7 +10398,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a72efb17-752d-4d20-b4e2-5cd23fc13bdd")
-		(property "Reference" "L1"
+		(property "Reference" "L2"
 			(at 166.878 104.902 0)
 			(effects
 				(font
@@ -10749,7 +10459,7 @@
 		(instances
 			(project ""
 				(path "/0864898c-5307-44d7-ba2c-a6227ddaacc4"
-					(reference "L1")
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -10757,15 +10467,15 @@
 	)
 	(symbol
 		(lib_id "easyeda2kicad:RC0402FR-07160KL")
-		(at 194.056 39.624 180)
+		(at 186.69 39.624 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "a7a86be5-f9ff-48b9-81a6-746127a1e11e")
-		(property "Reference" "R6"
-			(at 191.262 42.164 0)
+		(property "Reference" "R2"
+			(at 183.896 42.164 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10773,7 +10483,7 @@
 			)
 		)
 		(property "Value" "RC0402FR-07160KL"
-			(at 194.056 43.434 0)
+			(at 186.69 43.434 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10782,7 +10492,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 194.056 32.004 0)
+			(at 186.69 32.004 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10791,7 +10501,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121248_TA-I-Tech-RM02FTN3163_C240016.pdf"
-			(at 194.056 29.464 0)
+			(at 186.69 29.464 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10800,7 +10510,7 @@
 			)
 		)
 		(property "Description" "169kΩ"
-			(at 195.834 42.164 0)
+			(at 188.468 42.164 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10808,7 +10518,7 @@
 			)
 		)
 		(property "LCSC Part" "C166333"
-			(at 194.056 26.924 0)
+			(at 186.69 26.924 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10825,83 +10535,7 @@
 		(instances
 			(project "nrf54l-module"
 				(path "/0864898c-5307-44d7-ba2c-a6227ddaacc4"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 136.144 181.864 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ae84f3cf-0e94-4296-96ba-bb2f6c1e3b75")
-		(property "Reference" "R11"
-			(at 134.112 184.912 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1kΩ"
-			(at 137.668 184.912 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 136.144 183.642 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0201WMF1001TEE_C270365.pdf"
-			(at 136.144 181.864 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 136.144 181.864 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C270365"
-			(at 136.144 181.864 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c86dcf01-99fe-49bc-843d-801a1e200105")
-		)
-		(pin "1"
-			(uuid "47965538-18e2-4995-b672-9ec3ab3f73c5")
-		)
-		(instances
-			(project "nrf54l-module"
-				(path "/0864898c-5307-44d7-ba2c-a6227ddaacc4"
-					(reference "R11")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -10917,7 +10551,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b617abf3-2c4b-4301-89b8-58b20303c525")
-		(property "Reference" "C7"
+		(property "Reference" "C19"
 			(at 211.582 113.7919 0)
 			(effects
 				(font
@@ -10980,39 +10614,31 @@
 		(instances
 			(project "nrf54l-module"
 				(path "/0864898c-5307-44d7-ba2c-a6227ddaacc4"
-					(reference "C7")
+					(reference "C19")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 145.542 181.864 90)
+		(lib_id "easyeda2kicad:TZ-P2-0402RTIA1-0.45T")
+		(at 240.538 135.382 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c33718ea-8d0d-4b25-b3e8-f37d103bb77a")
-		(property "Reference" "R12"
-			(at 143.51 184.912 90)
+		(uuid "c0d1387a-fcb7-44e2-bb72-83ee1f96776a")
+		(property "Reference" "LED3"
+			(at 242.316 131.826 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1kΩ"
-			(at 147.066 184.912 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 145.542 183.642 90)
+		(property "Value" "TZ-P2-0402RTIA1-0.45T"
+			(at 239.778 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11020,8 +10646,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0201WMF1001TEE_C270365.pdf"
-			(at 145.542 181.864 0)
+		(property "Footprint" "easyeda2kicad:LED0402-RD_RED"
+			(at 240.538 143.002 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11029,142 +10655,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 145.542 181.864 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C270365"
-			(at 145.542 181.864 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "dba6e040-5033-47d0-8e94-6a3bbab8e838")
-		)
-		(pin "1"
-			(uuid "3c1de1a5-ea62-48aa-a1de-77682e96d3e0")
-		)
-		(instances
-			(project "nrf54l-module"
-				(path "/0864898c-5307-44d7-ba2c-a6227ddaacc4"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+1V8")
-		(at 170.18 178.308 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c3bf0f1a-3b61-4939-86c4-6d24d2bfb6fe")
-		(property "Reference" "#PWR013"
-			(at 170.18 182.118 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+1V8"
-			(at 170.18 173.228 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 170.18 178.308 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 178.308 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 170.18 178.308 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3486bd61-5acc-442d-80e5-ba2abb5fa8c3")
-		)
-		(instances
-			(project "nrf54l-module"
-				(path "/0864898c-5307-44d7-ba2c-a6227ddaacc4"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad:XL-0201SURC")
-		(at 241.046 104.902 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c938a287-3d35-4de3-92b8-4e7e5e9e841c")
-		(property "Reference" "U5"
-			(at 242.062 100.838 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "XL-0201SURC"
-			(at 240.286 98.552 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:LED-SMD_L0.65-W0.35-P0.41_XL-0201SURC"
-			(at 241.046 112.522 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.046 104.902 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_TUOZHAN-TZ-P2-0402RTIA1-0-45T_C779449.html"
+			(at 240.538 145.542 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11173,7 +10665,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 241.046 104.902 0)
+			(at 240.538 135.382 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11181,84 +10673,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C3646923"
-			(at 241.046 115.062 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "944a90c9-846b-43fc-ae1c-41021560eaa6")
-		)
-		(pin "2"
-			(uuid "950043e5-5d29-4e08-a2d1-2612148ee0a7")
-		)
-		(instances
-			(project "nrf54l-module"
-				(path "/0864898c-5307-44d7-ba2c-a6227ddaacc4"
-					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 154.94 181.864 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cd47ba38-99f4-414f-a3d5-36bf16c56aa5")
-		(property "Reference" "R13"
-			(at 152.908 184.912 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1kΩ"
-			(at 156.464 184.912 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 154.94 183.642 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0201WMF1001TEE_C270365.pdf"
-			(at 154.94 181.864 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 154.94 181.864 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C270365"
-			(at 154.94 181.864 0)
+		(property "LCSC Part" "C779449"
+			(at 240.538 148.082 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11267,92 +10683,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "7e2a4327-8654-4f67-97ef-c77dfb6979da")
+			(uuid "c16aa8f4-8816-4c2e-af1c-f3be6a037241")
 		)
 		(pin "1"
-			(uuid "642aca15-5a82-4145-8e34-b4f9e76553f1")
+			(uuid "7399606a-95f4-424d-8cef-7ee96cd5f8b6")
 		)
 		(instances
 			(project "nrf54l-module"
 				(path "/0864898c-5307-44d7-ba2c-a6227ddaacc4"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad:XL-0201SURC")
-		(at 251.968 150.622 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ce0e1020-a6e2-4297-afc3-bbe545082179")
-		(property "Reference" "U7"
-			(at 252.73 146.558 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "XL-0201SURC"
-			(at 251.208 144.272 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:LED-SMD_L0.65-W0.35-P0.41_XL-0201SURC"
-			(at 251.968 158.242 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 251.968 150.622 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 251.968 150.622 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C3646923"
-			(at 251.968 160.782 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bd066708-3439-4eb7-93e6-fc240b99add6")
-		)
-		(pin "2"
-			(uuid "47ec6771-d5aa-4e49-ad80-b97d2be0667f")
-		)
-		(instances
-			(project "nrf54l-module"
-				(path "/0864898c-5307-44d7-ba2c-a6227ddaacc4"
-					(reference "U7")
+					(reference "LED3")
 					(unit 1)
 				)
 			)
@@ -11360,15 +10699,15 @@
 	)
 	(symbol
 		(lib_id "easyeda2kicad:RC0402FR-07160KL")
-		(at 234.696 34.544 270)
+		(at 227.33 34.544 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "d30b0d95-eac1-4b04-8622-feef2dc93bcd")
-		(property "Reference" "R3"
-			(at 237.744 33.274 90)
+		(property "Reference" "R1"
+			(at 230.378 33.274 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11376,7 +10715,7 @@
 			)
 		)
 		(property "Value" "RC0402FR-07160KL"
-			(at 238.506 34.544 0)
+			(at 231.14 34.544 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11385,7 +10724,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 227.076 34.544 0)
+			(at 219.71 34.544 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11394,7 +10733,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121248_TA-I-Tech-RM02FTN3163_C240016.pdf"
-			(at 224.536 34.544 0)
+			(at 217.17 34.544 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11403,7 +10742,7 @@
 			)
 		)
 		(property "Description" "169kΩ"
-			(at 239.268 35.56 90)
+			(at 231.902 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11411,7 +10750,7 @@
 			)
 		)
 		(property "LCSC Part" "C166333"
-			(at 221.996 34.544 0)
+			(at 214.63 34.544 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11428,7 +10767,7 @@
 		(instances
 			(project "nrf54l-module"
 				(path "/0864898c-5307-44d7-ba2c-a6227ddaacc4"
-					(reference "R3")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -11443,7 +10782,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d401752a-a96b-43d7-9cf8-e408db967f29")
-		(property "Reference" "R1"
+		(property "Reference" "R8"
 			(at 156.21 111.76 90)
 			(effects
 				(font
@@ -11504,7 +10843,7 @@
 		(instances
 			(project ""
 				(path "/0864898c-5307-44d7-ba2c-a6227ddaacc4"
-					(reference "R1")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -11512,15 +10851,15 @@
 	)
 	(symbol
 		(lib_id "easyeda2kicad:RC0402FR-07160KL")
-		(at 206.756 53.34 270)
+		(at 199.39 53.34 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "da0ec66d-d210-448c-9460-418318c9c873")
-		(property "Reference" "R9"
-			(at 209.804 52.07 90)
+		(property "Reference" "R4"
+			(at 202.438 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11528,7 +10867,7 @@
 			)
 		)
 		(property "Value" "RC0402FR-07160KL"
-			(at 210.566 53.34 0)
+			(at 203.2 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11537,7 +10876,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 199.136 53.34 0)
+			(at 191.77 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11546,7 +10885,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121248_TA-I-Tech-RM02FTN3163_C240016.pdf"
-			(at 196.596 53.34 0)
+			(at 189.23 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11555,7 +10894,7 @@
 			)
 		)
 		(property "Description" "169kΩ"
-			(at 211.328 54.356 90)
+			(at 203.962 54.356 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11563,7 +10902,7 @@
 			)
 		)
 		(property "LCSC Part" "C166333"
-			(at 194.056 53.34 0)
+			(at 186.69 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11580,7 +10919,7 @@
 		(instances
 			(project "nrf54l-module"
 				(path "/0864898c-5307-44d7-ba2c-a6227ddaacc4"
-					(reference "R9")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -11588,15 +10927,15 @@
 	)
 	(symbol
 		(lib_id "easyeda2kicad:RC0402FR-07160KL")
-		(at 206.756 64.008 270)
+		(at 199.39 64.008 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "de2a8533-0880-46e6-96b1-adde6f2c974f")
-		(property "Reference" "R10"
-			(at 210.312 62.738 90)
+		(property "Reference" "R6"
+			(at 202.946 62.738 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11604,7 +10943,7 @@
 			)
 		)
 		(property "Value" "RC0402FR-07160KL"
-			(at 210.566 64.008 0)
+			(at 203.2 64.008 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11613,7 +10952,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 199.136 64.008 0)
+			(at 191.77 64.008 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11622,7 +10961,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121248_TA-I-Tech-RM02FTN3163_C240016.pdf"
-			(at 196.596 64.008 0)
+			(at 189.23 64.008 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11631,7 +10970,7 @@
 			)
 		)
 		(property "Description" "169kΩ"
-			(at 211.328 65.024 90)
+			(at 203.962 65.024 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11639,7 +10978,7 @@
 			)
 		)
 		(property "LCSC Part" "C166333"
-			(at 194.056 64.008 0)
+			(at 186.69 64.008 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11656,7 +10995,7 @@
 		(instances
 			(project "nrf54l-module"
 				(path "/0864898c-5307-44d7-ba2c-a6227ddaacc4"
-					(reference "R10")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -11671,7 +11010,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eea9f87b-903e-41ec-bb5f-e5a63f3679d5")
-		(property "Reference" "R7"
+		(property "Reference" "R9"
 			(at 251.714 123.19 90)
 			(effects
 				(font
@@ -11732,7 +11071,7 @@
 		(instances
 			(project "nrf54l-module"
 				(path "/0864898c-5307-44d7-ba2c-a6227ddaacc4"
-					(reference "R7")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -11747,7 +11086,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f2fb242b-ec47-430a-ac6b-0db3ad848024")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR015"
 			(at 23.622 135.382 0)
 			(effects
 				(font
@@ -11797,7 +11136,7 @@
 		(instances
 			(project "nrf54l-module"
 				(path "/0864898c-5307-44d7-ba2c-a6227ddaacc4"
-					(reference "#PWR011")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -11805,15 +11144,15 @@
 	)
 	(symbol
 		(lib_id "easyeda2kicad:RC0402FR-07160KL")
-		(at 234.696 45.974 270)
+		(at 227.33 45.974 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "f545c1c6-93b4-438a-b12e-55fff53c275a")
-		(property "Reference" "R4"
-			(at 237.744 44.704 90)
+		(property "Reference" "R3"
+			(at 230.378 44.704 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11821,7 +11160,7 @@
 			)
 		)
 		(property "Value" "RC0402FR-07160KL"
-			(at 238.506 45.974 0)
+			(at 231.14 45.974 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11830,7 +11169,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 227.076 45.974 0)
+			(at 219.71 45.974 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11839,7 +11178,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121248_TA-I-Tech-RM02FTN3163_C240016.pdf"
-			(at 224.536 45.974 0)
+			(at 217.17 45.974 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11848,7 +11187,7 @@
 			)
 		)
 		(property "Description" "169kΩ"
-			(at 239.268 46.99 90)
+			(at 231.902 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11856,7 +11195,7 @@
 			)
 		)
 		(property "LCSC Part" "C166333"
-			(at 221.996 45.974 0)
+			(at 214.63 45.974 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11873,149 +11212,7 @@
 		(instances
 			(project "nrf54l-module"
 				(path "/0864898c-5307-44d7-ba2c-a6227ddaacc4"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 110.998 184.404 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f8dea368-8f15-47a9-b450-d31d02261448")
-		(property "Reference" "#PWR014"
-			(at 110.998 190.754 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 110.998 188.468 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 110.998 184.404 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 110.998 184.404 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 110.998 184.404 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "909b07e9-81d2-4371-aaea-fd9ecfefb560")
-		)
-		(instances
-			(project "nrf54l-module"
-				(path "/0864898c-5307-44d7-ba2c-a6227ddaacc4"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 239.268 150.622 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f98e1062-9e86-404f-aca2-0dc2d13a30ba")
-		(property "Reference" "R16"
-			(at 237.236 153.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1kΩ"
-			(at 240.792 153.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 239.268 152.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0201WMF1001TEE_C270365.pdf"
-			(at 239.268 150.622 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 239.268 150.622 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C270365"
-			(at 239.268 150.622 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c254e17d-f28e-4335-8d03-4edc885d4767")
-		)
-		(pin "1"
-			(uuid "55118a4d-30cb-4199-ae5e-e2b4c61573e9")
-		)
-		(instances
-			(project "nrf54l-module"
-				(path "/0864898c-5307-44d7-ba2c-a6227ddaacc4"
-					(reference "R16")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -12031,7 +11228,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fc4064e1-4557-4c11-b50c-92b4e5abc0ef")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR04"
 			(at 32.766 44.196 0)
 			(effects
 				(font
@@ -12081,7 +11278,7 @@
 		(instances
 			(project "nrf54l-module"
 				(path "/0864898c-5307-44d7-ba2c-a6227ddaacc4"
-					(reference "#PWR020")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -12089,7 +11286,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 159.766 123.698 0)
+		(at 153.162 122.936 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12097,8 +11294,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd5807a9-421a-4e75-923b-e19e9d2fffd0")
-		(property "Reference" "C15"
-			(at 163.576 122.4279 0)
+		(property "Reference" "C20"
+			(at 156.972 121.6659 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12107,7 +11304,7 @@
 			)
 		)
 		(property "Value" "2pF"
-			(at 163.576 124.9679 0)
+			(at 156.972 124.2059 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12116,7 +11313,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 160.7312 127.508 0)
+			(at 154.1272 126.746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12125,7 +11322,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2412232005_Murata-Electronics-GJM0335C1E2R0CB01D_C426046.pdf"
-			(at 159.766 123.698 0)
+			(at 153.162 122.936 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12134,7 +11331,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 159.766 123.698 0)
+			(at 153.162 122.936 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12143,7 +11340,7 @@
 			)
 		)
 		(property "LCSC Part" "C426046"
-			(at 159.766 123.698 0)
+			(at 153.162 122.936 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12160,7 +11357,7 @@
 		(instances
 			(project "nrf54l-module"
 				(path "/0864898c-5307-44d7-ba2c-a6227ddaacc4"
-					(reference "C15")
+					(reference "C20")
 					(unit 1)
 				)
 			)

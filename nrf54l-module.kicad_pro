@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.15
+          "min_clearance": 0.125
         }
       },
       "diff_pair_dimensions": [
@@ -60,7 +60,15 @@
       ],
       "drc_exclusions": [
         [
-          "solder_mask_bridge|38435914|25923912|41277186-4aa0-40af-b72f-08f55aec6759|5c32dfdc-bad3-4db4-99bd-1acdbc6f6871",
+          "clearance|38019744|28540247|42268071-4cdf-489b-8ba1-1f51ba39a8c0|229dd224-caa1-4a71-858d-3f2e5c80fde0",
+          ""
+        ],
+        [
+          "copper_edge_clearance|41033700|45300900|6825e2fc-c074-4ce4-b9b0-28a24596f9c2|6303ffad-2107-481a-a648-2929b10fc642",
+          ""
+        ],
+        [
+          "solder_mask_bridge|38436938|25673912|41277186-4aa0-40af-b72f-08f55aec6759|b7642952-16a6-4842-ac98-1f171e734faa",
           ""
         ]
       ],
@@ -128,7 +136,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.1,
+        "min_clearance": 0.125,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.2,
         "min_groove_width": 0.0,
@@ -196,7 +204,10 @@
         0.1,
         0.15,
         0.2,
-        0.4
+        0.25,
+        0.32,
+        0.4,
+        0.5
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -230,7 +241,7 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.42,
+          "diameter": 0.475,
           "drill": 0.3
         },
         {
@@ -487,7 +498,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.1,
+        "clearance": 0.125,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -499,7 +510,7 @@
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
-        "via_diameter": 0.42,
+        "via_diameter": 0.5,
         "via_drill": 0.3,
         "wire_width": 6
       }
