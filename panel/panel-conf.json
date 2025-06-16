@@ -1,28 +1,27 @@
 {
     "layout": {
         "hspace": "2mm",
-        "vspace": "1.6mm",
+        "vspace": "2mm",
         "rows": "3",
         "cols": "4",
         "renamenet": "B{n}-{orig}"
     },
     "source": {
-        "tolerance": "0.0125mm"
+        "tolerance": "1.5mm"
     },
     "tabs": {
         "type": "corner",
-        "width": "1.075mm",
-        "fillet": "0.5mm"
+        "width": "1mm",
+        "fillet": "0.65mm"
     },
     "cuts": {
         "type": "mousebites",
-        "drill": "0.4mm",
-        "spacing": "0.55mm"
+        "drill": "0.35mm",
+        "spacing": "0.5mm"
     },
     "framing": {
-        "type": "railslr",
-        "width": "6mm",
-        "fillet": "1.5mm"
+        "type": "frame",
+        "width": "6mm"
     },
     "fiducials": {
         "type": "3fid",
@@ -36,7 +35,6 @@
         "posy": "0mm"
     },
     "post": {
-        "refillzones": "True",
-        "edgewidth": "0.05mm"
+        "millradiusouter": "0.75mm"
     }
 }
