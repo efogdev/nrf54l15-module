@@ -1,15 +1,17 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 43,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
-    "hidden_nets": [],
+    "hidden_nets": [
+      "VIN"
+    ],
     "high_contrast_mode": 1,
     "net_color_mode": 2,
     "opacity": {
       "images": 0.6,
-      "pads": 1.0,
+      "pads": 0.6700000166893005,
       "shapes": 1.0,
       "tracks": 1.0,
       "vias": 1.0,
@@ -38,16 +40,14 @@
       "footprint_references",
       "tracks",
       "drc_errors",
-      "drawing_sheet",
       "bitmaps",
       "pads",
       "zones",
-      "drc_warnings",
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_fffff7f7_7ffdff5f",
-    "zone_display_mode": 1
+    "visible_layers": "ffffffff_ffffffff_fffffff7_7ffdffff",
+    "zone_display_mode": 0
   },
   "git": {
     "repo_type": "",
@@ -60,6 +60,8 @@
   },
   "net_inspector_panel": {
     "col_hidden": [
+      false,
+      false,
       false,
       false,
       false,
@@ -85,9 +87,13 @@
       8,
       9,
       10,
-      11
+      11,
+      12,
+      13
     ],
     "col_widths": [
+      0,
+      0,
       0,
       0,
       0,
@@ -125,19 +131,7 @@
           "pos_x": 0,
           "pos_y": 0,
           "size_x": 1280,
-          "size_y": 476
-        }
-      },
-      {
-        "name": "nrf54l-module.kicad_sch",
-        "open": false,
-        "window": {
-          "display": 1,
-          "maximized": true,
-          "pos_x": 2817,
-          "pos_y": -161,
-          "size_x": 2046,
-          "size_y": 1601
+          "size_y": 544
         }
       }
     ]

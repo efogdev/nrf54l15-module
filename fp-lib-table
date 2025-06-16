@@ -1,6 +1,6 @@
 (fp_lib_table
   (version 7)
-  (lib (name "castellanus")(type "KiCad")(uri "${KIPRJMOD}/castellanus.pretty")(options "${KIPRJMOD}/castellanus.pretty")(descr ""))
-  (lib (name "chinchilla")(type "KiCad")(uri "${KIPRJMOD}/chinchilla.pretty")(options "")(descr "KiCad"))
-  (lib (name "chinchilla-01")(type "KiCad")(uri "${KIPRJMOD}/kicad-symbol-and-footprint/chinchilla-01.pretty")(options "")(descr ""))
+  (lib (name "castellanus")(type "KiCad")(uri "${KIPRJMOD}/lib/castellanus.pretty")(options "${KIPRJMOD}/castellanus.pretty")(descr ""))
+  (lib (name "chinchilla")(type "KiCad")(uri "${KIPRJMOD}/lib/chinchilla.pretty")(options "")(descr "KiCad"))
+  (lib (name "chinchilla-01")(type "KiCad")(uri "${KIPRJMOD}/symbol-footprint/chinchilla-01.pretty")(options "")(descr ""))
 )
