@@ -125,14 +125,14 @@
     "files": [
       {
         "name": "nrf54l-module.kicad_pcb",
-        "open": true,
+        "open": false,
         "window": {
           "display": 1,
           "maximized": true,
           "pos_x": 0,
           "pos_y": 0,
-          "size_x": 1560,
-          "size_y": 559
+          "size_x": 1630,
+          "size_y": 666
         }
       }
     ]

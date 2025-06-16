@@ -1,0 +1,42 @@
+{
+    "layout": {
+        "hspace": "2mm",
+        "vspace": "1.6mm",
+        "rows": "3",
+        "cols": "4",
+        "renamenet": "B{n}-{orig}"
+    },
+    "source": {
+        "tolerance": "0.0125mm"
+    },
+    "tabs": {
+        "type": "corner",
+        "width": "1.075mm",
+        "fillet": "0.5mm"
+    },
+    "cuts": {
+        "type": "mousebites",
+        "drill": "0.4mm",
+        "spacing": "0.55mm"
+    },
+    "framing": {
+        "type": "railslr",
+        "width": "6mm",
+        "fillet": "1.5mm"
+    },
+    "fiducials": {
+        "type": "3fid",
+        "hoffset": "4.5mm",
+        "voffset": "3.5mm",
+        "opening": "2mm"
+    },
+    "page": {
+        "anchor": "tl",
+        "posx": "0mm",
+        "posy": "0mm"
+    },
+    "post": {
+        "refillzones": "True",
+        "edgewidth": "0.05mm"
+    }
+}
