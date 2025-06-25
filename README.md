@@ -7,7 +7,7 @@
 ## Features
 
 1. Full IO set: all the GPIO and programming pins are present
-2. Compact design: the board is 16.4x25.3 mm width and ≈4.8 mm of total height
+2. Compact design: the board is 16.4x25.3 mm with ≈4.8 mm of total height
 3. Ultra efficient: featuring TLV62569 with ≥92% efficiency at (almost) any load
 4. 1V8 pin can be used as both input (if VIN not connected) and output (up to 1.5A)
 5. 4 programmable LEDs (200 µA) that can be isolated to free the pins
