@@ -1,6 +1,7 @@
 ## Codename "Chinchilla"
 
-### ❗️ WORK IN PROGRESS ❗️
+### ❗️ DO NOT BUILD ❗️
+### ❗️ The design has a critical issue ❗️
 
 ![3D view](./images/3d.png)
 
