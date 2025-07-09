@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 43,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -47,7 +47,7 @@
       "shapes"
     ],
     "visible_layers": "ffffffff_ffffffff_fffffff7_7ffdffff",
-    "zone_display_mode": 0
+    "zone_display_mode": 1
   },
   "git": {
     "repo_type": "",
@@ -123,13 +123,25 @@
   "project": {
     "files": [
       {
+        "name": "nrf54l-module.kicad_sch",
+        "open": false,
+        "window": {
+          "display": 1,
+          "maximized": true,
+          "pos_x": 2782,
+          "pos_y": -268,
+          "size_x": 2116,
+          "size_y": 1708
+        }
+      },
+      {
         "name": "nrf54l-module.kicad_pcb",
         "open": false,
         "window": {
           "display": 1,
           "maximized": true,
-          "pos_x": 0,
-          "pos_y": 0,
+          "pos_x": 35,
+          "pos_y": 32,
           "size_x": 1280,
           "size_y": 544
         }

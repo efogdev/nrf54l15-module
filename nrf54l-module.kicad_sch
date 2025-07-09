@@ -3363,10 +3363,22 @@
 		(uuid "07f0543b-615e-47a6-b705-da8f3842b818")
 	)
 	(junction
+		(at 23.622 111.252)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a27acdb-589e-416a-9d67-7643f9e030f0")
+	)
+	(junction
 		(at 60.452 40.132)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0e832ba8-3c9c-43c3-895d-7e79d8a6bf46")
+	)
+	(junction
+		(at 97.282 166.116)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1202b7c1-4f17-48ba-a3e4-f9f9b31a8190")
 	)
 	(junction
 		(at 230.886 120.142)
@@ -3385,6 +3397,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "19cd7e89-217c-4969-8ef6-5a75ef84e914")
+	)
+	(junction
+		(at 75.692 43.942)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b2ac131-6984-4014-a12b-2aff3a4c4d4c")
 	)
 	(junction
 		(at 227.33 53.594)
@@ -3411,6 +3429,12 @@
 		(uuid "38beeefa-bc37-442e-bd84-4e978ad173c6")
 	)
 	(junction
+		(at 78.232 43.942)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e81dece-2c6b-40c9-a41d-5e1f7e02cc74")
+	)
+	(junction
 		(at 65.532 16.002)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3433,6 +3457,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5bdc1cdd-ed0f-4ad8-ad88-62a315dbd2af")
+	)
+	(junction
+		(at 75.692 46.482)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6604cee1-d9ea-42c7-b7d3-df1fbf9f3fe7")
 	)
 	(junction
 		(at 261.62 28.194)
@@ -3680,16 +3710,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.232 41.402) (xy 83.312 41.402)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0fc2bddf-3a7c-43a7-8aa2-09696335af4d")
-	)
-	(wire
-		(pts
 			(xy 75.692 43.942) (xy 78.232 43.942)
 		)
 		(stroke
@@ -3880,6 +3900,16 @@
 	)
 	(wire
 		(pts
+			(xy 23.622 108.966) (xy 23.622 111.252)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cc7b8f6-ccb0-4740-a95b-a0149d38152e")
+	)
+	(wire
+		(pts
 			(xy 208.28 69.85) (xy 208.28 71.12)
 		)
 		(stroke
@@ -3900,7 +3930,7 @@
 	)
 	(wire
 		(pts
-			(xy 65.532 29.972) (xy 78.232 29.972)
+			(xy 65.532 29.972) (xy 83.312 29.972)
 		)
 		(stroke
 			(width 0)
@@ -4140,7 +4170,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.282 170.942) (xy 97.282 172.212)
+			(xy 97.282 174.752) (xy 97.282 176.022)
 		)
 		(stroke
 			(width 0)
@@ -4190,7 +4220,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.232 29.972) (xy 78.232 41.402)
+			(xy 83.312 29.972) (xy 83.312 49.022)
 		)
 		(stroke
 			(width 0)
@@ -4250,6 +4280,16 @@
 	)
 	(wire
 		(pts
+			(xy 108.966 162.306) (xy 108.966 166.116)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "728a6e76-5704-4e17-9841-9923b1af6538")
+	)
+	(wire
+		(pts
 			(xy 75.692 46.482) (xy 75.692 49.022)
 		)
 		(stroke
@@ -4267,16 +4307,6 @@
 			(type default)
 		)
 		(uuid "73a6f372-cd82-40da-b0bf-a74e8a82ee84")
-	)
-	(wire
-		(pts
-			(xy 83.312 41.402) (xy 83.312 49.022)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79a6994f-f518-432a-a7e5-d5b57501cb29")
 	)
 	(wire
 		(pts
@@ -4390,6 +4420,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.282 166.116) (xy 108.966 166.116)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87f65d2f-7bbf-407a-9423-485dd0acae69")
+	)
+	(wire
+		(pts
 			(xy 60.452 16.002) (xy 65.532 16.002)
 		)
 		(stroke
@@ -4397,6 +4437,16 @@
 			(type default)
 		)
 		(uuid "88bec0e8-ef0b-460f-8f23-b8c7aca37318")
+	)
+	(wire
+		(pts
+			(xy 97.282 155.702) (xy 97.282 166.116)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "895f7d55-5e60-4567-b46f-3fe339888106")
 	)
 	(wire
 		(pts
@@ -4670,6 +4720,16 @@
 	)
 	(wire
 		(pts
+			(xy 75.692 43.942) (xy 75.692 46.482)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b91df48b-195a-4ffd-82c1-2eb0b4d3d8e5")
+	)
+	(wire
+		(pts
 			(xy 168.91 37.084) (xy 168.91 37.338)
 		)
 		(stroke
@@ -4770,6 +4830,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.282 166.116) (xy 97.282 167.132)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6a163e4-0c58-40dc-a937-af171b4da743")
+	)
+	(wire
+		(pts
 			(xy 257.048 135.382) (xy 262.382 135.382)
 		)
 		(stroke
@@ -4827,16 +4897,6 @@
 			(type default)
 		)
 		(uuid "d2d5622d-eb69-4c72-a8c9-9c86feb36bb2")
-	)
-	(wire
-		(pts
-			(xy 97.282 155.702) (xy 97.282 163.322)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3f82cf8-c223-499e-b2a6-2399cedf827e")
 	)
 	(wire
 		(pts
@@ -5117,6 +5177,16 @@
 			(type default)
 		)
 		(uuid "f8945694-dcbc-4d97-832e-7b8175fdbe85")
+	)
+	(wire
+		(pts
+			(xy 78.232 37.846) (xy 78.232 43.942)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fafa359e-07fe-4de8-a0fa-5c9a6caa5632")
 	)
 	(wire
 		(pts
@@ -6688,6 +6758,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+1V8")
+		(at 23.622 108.966 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1636328c-5faa-452c-a304-2652bd2d67ea")
+		(property "Reference" "#PWR020"
+			(at 23.622 112.776 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1V8"
+			(at 19.812 107.696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 23.622 108.966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 23.622 108.966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V8\""
+			(at 23.622 108.966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a3f10bd-3e2e-4840-9a8a-7ff204bcbac7")
+		)
+		(instances
+			(project "nrf54l-module"
+				(path "/0864898c-5307-44d7-ba2c-a6227ddaacc4"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 52.832 43.942 0)
 		(unit 1)
@@ -7600,7 +7735,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 97.282 167.132 0)
+		(at 97.282 170.942 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7609,7 +7744,7 @@
 		(fields_autoplaced yes)
 		(uuid "3390da49-569c-4f71-8c81-f3bb5b009990")
 		(property "Reference" "C22"
-			(at 101.092 165.8619 0)
+			(at 101.092 169.6719 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7618,7 +7753,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 101.092 168.4019 0)
+			(at 101.092 172.2119 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7627,7 +7762,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 98.2472 170.942 0)
+			(at 98.2472 174.752 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7636,7 +7771,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2105241313_Murata-Electronics-GRM033Z71C104KE14D_C668346.pdf"
-			(at 97.282 167.132 0)
+			(at 97.282 170.942 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7645,7 +7780,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 97.282 167.132 0)
+			(at 97.282 170.942 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7654,7 +7789,7 @@
 			)
 		)
 		(property "LCSC Part" "C668346"
-			(at 97.282 167.132 0)
+			(at 97.282 170.942 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8890,7 +9025,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 97.282 172.212 0)
+		(at 97.282 176.022 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8898,7 +9033,7 @@
 		(dnp no)
 		(uuid "6ace11cf-119a-44a6-a640-ffeb0a183818")
 		(property "Reference" "#PWR017"
-			(at 97.282 178.562 0)
+			(at 97.282 182.372 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8907,7 +9042,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 97.282 176.784 0)
+			(at 97.282 180.594 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8915,7 +9050,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.282 172.212 0)
+			(at 97.282 176.022 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8924,7 +9059,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.282 172.212 0)
+			(at 97.282 176.022 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8933,7 +9068,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 97.282 172.212 0)
+			(at 97.282 176.022 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11002,6 +11137,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+1V8")
+		(at 108.966 162.306 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6297525-ef5b-4704-b225-ecfebb0388da")
+		(property "Reference" "#PWR021"
+			(at 108.966 166.116 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1V8"
+			(at 108.966 157.226 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 108.966 162.306 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 108.966 162.306 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V8\""
+			(at 108.966 162.306 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b10cb505-0ced-47a1-a4c0-a939420cfe06")
+		)
+		(instances
+			(project "nrf54l-module"
+				(path "/0864898c-5307-44d7-ba2c-a6227ddaacc4"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 253.746 120.142 90)
 		(unit 1)
@@ -11213,6 +11414,71 @@
 			(project "nrf54l-module"
 				(path "/0864898c-5307-44d7-ba2c-a6227ddaacc4"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V8")
+		(at 78.232 37.846 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f5e0a493-8a54-4b88-8801-10293f93394b")
+		(property "Reference" "#PWR019"
+			(at 78.232 41.656 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1V8"
+			(at 78.486 33.528 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.232 37.846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.232 37.846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V8\""
+			(at 78.232 37.846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae75c1ce-6c17-477f-a416-783b9039b8dc")
+		)
+		(instances
+			(project "nrf54l-module"
+				(path "/0864898c-5307-44d7-ba2c-a6227ddaacc4"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
